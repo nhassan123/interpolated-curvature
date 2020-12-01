@@ -1,0 +1,12 @@
+/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/curvature.dir
+/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/core.dir
+/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/edit_cache.dir
+/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/rebuild_cache.dir
+/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/glad/CMakeFiles/edit_cache.dir
+/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/glad/CMakeFiles/rebuild_cache.dir
+/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/glad/CMakeFiles/glad.dir
+/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/glfw/CMakeFiles/edit_cache.dir
+/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/glfw/CMakeFiles/rebuild_cache.dir
+/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/glfw/src/CMakeFiles/rebuild_cache.dir
+/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/glfw/src/CMakeFiles/edit_cache.dir
+/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/glfw/src/CMakeFiles/glfw.dir

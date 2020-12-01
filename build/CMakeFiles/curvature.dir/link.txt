@@ -1,0 +1,1 @@
+/usr/bin/c++    -fPIC   CMakeFiles/curvature.dir/main.cpp.o  -o curvature -rdynamic libcore.a -lGL glad/libglad.a glfw/src/libglfw3.a -lrt -lm -ldl -lX11 -lpthread 
