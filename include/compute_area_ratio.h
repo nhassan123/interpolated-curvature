@@ -1,5 +1,5 @@
-#ifndef ANGLE_DEFECT_H
-#define ANGLE_DEFECT_H
+#ifndef AREA_RATIO
+#define AREA_RATIO
 #include <Eigen/Core>
 // Compute the discrete angle defect at each vertex of a triangle mesh
 // (`V`,`F`), that is, the _locally integrated_ discrete Gaussian

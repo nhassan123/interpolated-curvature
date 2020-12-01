@@ -1,6 +1,6 @@
-#include "include/angle_defect.h"
-#include "include/principal_curvatures.h"
-#include "include/mean_curvature.h"
+#include "include/anisotropic_measure.h"
+#include "include/compute_big_M.h"
+#include "include/curvatures_at_point.h"
 #include <igl/avg_edge_length.h>
 #include <igl/read_triangle_mesh.h>
 #include <igl/parula.h>
@@ -26,12 +26,12 @@ int main(int argc, char *argv[])
   Eigen::VectorXd D,G,H,K1,K2;
   Eigen::MatrixXd D1,D2;
   // Angle defect ~ locally integrated Gaussian curvature
-  angle_defect(V,F,D);
+  //angle_defect(V,F,D);
   // average locally (i.e., "un-integrate" to pointwise quantity for
   // visualization)
-  G = D.array()/A.array();
-  mean_curvature(V,F,H);
-  principal_curvatures(V,F,D1,D2,K1,K2);
+  //G = D.array()/A.array();
+  //mean_curvature(V,F,H);
+  //principal_curvatures(V,F,D1,D2,K1,K2);
 
   igl::opengl::glfw::Viewer viewer;
   std::cout<<R"(
@@ -45,7 +45,7 @@ k        Show minimum curvature (using principal_curvatures)
 D,d      Show principal directions 
 )";
   // Default to mean curvature
-  Eigen::VectorXd Z = H;
+  //Eigen::VectorXd Z = H;
   const auto update = [&]()
   {
     Eigen::MatrixXd C;

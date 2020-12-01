@@ -1,15 +1,19 @@
 #ifndef SEDOND_FUNDAMENTAL
 #define SECOND_FUNDAMENTAL
 #include <Eigen/Core>
-// Compute the discrete mean curvature at each vertex of a mesh (`V`,`F`) by
-// taking the signed magnitude of the mean curvature normal as a _pointwise_ or
-// _integral average_ quantity.
-//
+// Compute the second fundamental form of a triangle using two given directions X, Y
+// 
 // Inputs:
-//   V  #V by 3 list of mesh vertex positions
-//   F  #F by 3 list of mesh face indices into V
+//   X  3D Vector of tangent direction
+//   Y  3D Vector of second tangent direction
+//   xi 3D Vector position of vertex i of triangle
+//   xj 3D Vector position of vertex j of triangle
+//   xk 3D Vector position of vertex k of triangle
+//   ui 3D Vector normal at vertex i of triangle
+//   uj 3D Vector normal at vertex j of triangle
+//   uk 3D Vector normal at vertex k of triangle
 // Outputs:
-//   H  #V list of mean curvature values in units 1/m²
+//   sff  second fundamental form value for a triangle
 //
 void second_fundamental_form(
   const Eigen::VectorXd & X,
