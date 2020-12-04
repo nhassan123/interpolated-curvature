@@ -57,33 +57,9 @@ include CMakeFiles/core.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/core.dir/flags.make
 
-CMakeFiles/core.dir/src/area_ratio_get.cpp.o: CMakeFiles/core.dir/flags.make
-CMakeFiles/core.dir/src/area_ratio_get.cpp.o: ../src/area_ratio_get.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/core.dir/src/area_ratio_get.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core.dir/src/area_ratio_get.cpp.o -c /home/najah/Documents/MASc/geomProc/interpolated-curvature/src/area_ratio_get.cpp
-
-CMakeFiles/core.dir/src/area_ratio_get.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core.dir/src/area_ratio_get.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/najah/Documents/MASc/geomProc/interpolated-curvature/src/area_ratio_get.cpp > CMakeFiles/core.dir/src/area_ratio_get.cpp.i
-
-CMakeFiles/core.dir/src/area_ratio_get.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/src/area_ratio_get.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/najah/Documents/MASc/geomProc/interpolated-curvature/src/area_ratio_get.cpp -o CMakeFiles/core.dir/src/area_ratio_get.cpp.s
-
-CMakeFiles/core.dir/src/area_ratio_get.cpp.o.requires:
-
-.PHONY : CMakeFiles/core.dir/src/area_ratio_get.cpp.o.requires
-
-CMakeFiles/core.dir/src/area_ratio_get.cpp.o.provides: CMakeFiles/core.dir/src/area_ratio_get.cpp.o.requires
-	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/area_ratio_get.cpp.o.provides.build
-.PHONY : CMakeFiles/core.dir/src/area_ratio_get.cpp.o.provides
-
-CMakeFiles/core.dir/src/area_ratio_get.cpp.o.provides.build: CMakeFiles/core.dir/src/area_ratio_get.cpp.o
-
-
 CMakeFiles/core.dir/src/internal_angles.cpp.o: CMakeFiles/core.dir/flags.make
 CMakeFiles/core.dir/src/internal_angles.cpp.o: ../src/internal_angles.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/core.dir/src/internal_angles.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/core.dir/src/internal_angles.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core.dir/src/internal_angles.cpp.o -c /home/najah/Documents/MASc/geomProc/interpolated-curvature/src/internal_angles.cpp
 
 CMakeFiles/core.dir/src/internal_angles.cpp.i: cmake_force
@@ -107,7 +83,7 @@ CMakeFiles/core.dir/src/internal_angles.cpp.o.provides.build: CMakeFiles/core.di
 
 CMakeFiles/core.dir/src/second_fundamental_form.cpp.o: CMakeFiles/core.dir/flags.make
 CMakeFiles/core.dir/src/second_fundamental_form.cpp.o: ../src/second_fundamental_form.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/core.dir/src/second_fundamental_form.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/core.dir/src/second_fundamental_form.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core.dir/src/second_fundamental_form.cpp.o -c /home/najah/Documents/MASc/geomProc/interpolated-curvature/src/second_fundamental_form.cpp
 
 CMakeFiles/core.dir/src/second_fundamental_form.cpp.i: cmake_force
@@ -131,7 +107,7 @@ CMakeFiles/core.dir/src/second_fundamental_form.cpp.o.provides.build: CMakeFiles
 
 CMakeFiles/core.dir/src/area_ball.cpp.o: CMakeFiles/core.dir/flags.make
 CMakeFiles/core.dir/src/area_ball.cpp.o: ../src/area_ball.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/core.dir/src/area_ball.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/core.dir/src/area_ball.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core.dir/src/area_ball.cpp.o -c /home/najah/Documents/MASc/geomProc/interpolated-curvature/src/area_ball.cpp
 
 CMakeFiles/core.dir/src/area_ball.cpp.i: cmake_force
@@ -155,7 +131,7 @@ CMakeFiles/core.dir/src/area_ball.cpp.o.provides.build: CMakeFiles/core.dir/src/
 
 CMakeFiles/core.dir/src/compute_area_ratio.cpp.o: CMakeFiles/core.dir/flags.make
 CMakeFiles/core.dir/src/compute_area_ratio.cpp.o: ../src/compute_area_ratio.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/core.dir/src/compute_area_ratio.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/core.dir/src/compute_area_ratio.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core.dir/src/compute_area_ratio.cpp.o -c /home/najah/Documents/MASc/geomProc/interpolated-curvature/src/compute_area_ratio.cpp
 
 CMakeFiles/core.dir/src/compute_area_ratio.cpp.i: cmake_force
@@ -179,7 +155,7 @@ CMakeFiles/core.dir/src/compute_area_ratio.cpp.o.provides.build: CMakeFiles/core
 
 CMakeFiles/core.dir/src/corrected_area.cpp.o: CMakeFiles/core.dir/flags.make
 CMakeFiles/core.dir/src/corrected_area.cpp.o: ../src/corrected_area.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/core.dir/src/corrected_area.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/core.dir/src/corrected_area.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core.dir/src/corrected_area.cpp.o -c /home/najah/Documents/MASc/geomProc/interpolated-curvature/src/corrected_area.cpp
 
 CMakeFiles/core.dir/src/corrected_area.cpp.i: cmake_force
@@ -199,6 +175,30 @@ CMakeFiles/core.dir/src/corrected_area.cpp.o.provides: CMakeFiles/core.dir/src/c
 .PHONY : CMakeFiles/core.dir/src/corrected_area.cpp.o.provides
 
 CMakeFiles/core.dir/src/corrected_area.cpp.o.provides.build: CMakeFiles/core.dir/src/corrected_area.cpp.o
+
+
+CMakeFiles/core.dir/src/area_ratio_at_v.cpp.o: CMakeFiles/core.dir/flags.make
+CMakeFiles/core.dir/src/area_ratio_at_v.cpp.o: ../src/area_ratio_at_v.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/core.dir/src/area_ratio_at_v.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core.dir/src/area_ratio_at_v.cpp.o -c /home/najah/Documents/MASc/geomProc/interpolated-curvature/src/area_ratio_at_v.cpp
+
+CMakeFiles/core.dir/src/area_ratio_at_v.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core.dir/src/area_ratio_at_v.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/najah/Documents/MASc/geomProc/interpolated-curvature/src/area_ratio_at_v.cpp > CMakeFiles/core.dir/src/area_ratio_at_v.cpp.i
+
+CMakeFiles/core.dir/src/area_ratio_at_v.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/src/area_ratio_at_v.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/najah/Documents/MASc/geomProc/interpolated-curvature/src/area_ratio_at_v.cpp -o CMakeFiles/core.dir/src/area_ratio_at_v.cpp.s
+
+CMakeFiles/core.dir/src/area_ratio_at_v.cpp.o.requires:
+
+.PHONY : CMakeFiles/core.dir/src/area_ratio_at_v.cpp.o.requires
+
+CMakeFiles/core.dir/src/area_ratio_at_v.cpp.o.provides: CMakeFiles/core.dir/src/area_ratio_at_v.cpp.o.requires
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/area_ratio_at_v.cpp.o.provides.build
+.PHONY : CMakeFiles/core.dir/src/area_ratio_at_v.cpp.o.provides
+
+CMakeFiles/core.dir/src/area_ratio_at_v.cpp.o.provides.build: CMakeFiles/core.dir/src/area_ratio_at_v.cpp.o
 
 
 CMakeFiles/core.dir/src/second_fundamental_form_ball.cpp.o: CMakeFiles/core.dir/flags.make
@@ -273,33 +273,59 @@ CMakeFiles/core.dir/src/anisotropic_measure.cpp.o.provides: CMakeFiles/core.dir/
 CMakeFiles/core.dir/src/anisotropic_measure.cpp.o.provides.build: CMakeFiles/core.dir/src/anisotropic_measure.cpp.o
 
 
+CMakeFiles/core.dir/src/curvatures_at_point.cpp.o: CMakeFiles/core.dir/flags.make
+CMakeFiles/core.dir/src/curvatures_at_point.cpp.o: ../src/curvatures_at_point.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/core.dir/src/curvatures_at_point.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core.dir/src/curvatures_at_point.cpp.o -c /home/najah/Documents/MASc/geomProc/interpolated-curvature/src/curvatures_at_point.cpp
+
+CMakeFiles/core.dir/src/curvatures_at_point.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core.dir/src/curvatures_at_point.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/najah/Documents/MASc/geomProc/interpolated-curvature/src/curvatures_at_point.cpp > CMakeFiles/core.dir/src/curvatures_at_point.cpp.i
+
+CMakeFiles/core.dir/src/curvatures_at_point.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/src/curvatures_at_point.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/najah/Documents/MASc/geomProc/interpolated-curvature/src/curvatures_at_point.cpp -o CMakeFiles/core.dir/src/curvatures_at_point.cpp.s
+
+CMakeFiles/core.dir/src/curvatures_at_point.cpp.o.requires:
+
+.PHONY : CMakeFiles/core.dir/src/curvatures_at_point.cpp.o.requires
+
+CMakeFiles/core.dir/src/curvatures_at_point.cpp.o.provides: CMakeFiles/core.dir/src/curvatures_at_point.cpp.o.requires
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/curvatures_at_point.cpp.o.provides.build
+.PHONY : CMakeFiles/core.dir/src/curvatures_at_point.cpp.o.provides
+
+CMakeFiles/core.dir/src/curvatures_at_point.cpp.o.provides.build: CMakeFiles/core.dir/src/curvatures_at_point.cpp.o
+
+
 # Object files for target core
 core_OBJECTS = \
-"CMakeFiles/core.dir/src/area_ratio_get.cpp.o" \
 "CMakeFiles/core.dir/src/internal_angles.cpp.o" \
 "CMakeFiles/core.dir/src/second_fundamental_form.cpp.o" \
 "CMakeFiles/core.dir/src/area_ball.cpp.o" \
 "CMakeFiles/core.dir/src/compute_area_ratio.cpp.o" \
 "CMakeFiles/core.dir/src/corrected_area.cpp.o" \
+"CMakeFiles/core.dir/src/area_ratio_at_v.cpp.o" \
 "CMakeFiles/core.dir/src/second_fundamental_form_ball.cpp.o" \
 "CMakeFiles/core.dir/src/compute_big_M.cpp.o" \
-"CMakeFiles/core.dir/src/anisotropic_measure.cpp.o"
+"CMakeFiles/core.dir/src/anisotropic_measure.cpp.o" \
+"CMakeFiles/core.dir/src/curvatures_at_point.cpp.o"
 
 # External object files for target core
 core_EXTERNAL_OBJECTS =
 
-libcore.a: CMakeFiles/core.dir/src/area_ratio_get.cpp.o
 libcore.a: CMakeFiles/core.dir/src/internal_angles.cpp.o
 libcore.a: CMakeFiles/core.dir/src/second_fundamental_form.cpp.o
 libcore.a: CMakeFiles/core.dir/src/area_ball.cpp.o
 libcore.a: CMakeFiles/core.dir/src/compute_area_ratio.cpp.o
 libcore.a: CMakeFiles/core.dir/src/corrected_area.cpp.o
+libcore.a: CMakeFiles/core.dir/src/area_ratio_at_v.cpp.o
 libcore.a: CMakeFiles/core.dir/src/second_fundamental_form_ball.cpp.o
 libcore.a: CMakeFiles/core.dir/src/compute_big_M.cpp.o
 libcore.a: CMakeFiles/core.dir/src/anisotropic_measure.cpp.o
+libcore.a: CMakeFiles/core.dir/src/curvatures_at_point.cpp.o
 libcore.a: CMakeFiles/core.dir/build.make
 libcore.a: CMakeFiles/core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX static library libcore.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX static library libcore.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/core.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/core.dir/link.txt --verbose=$(VERBOSE)
 
@@ -308,15 +334,16 @@ CMakeFiles/core.dir/build: libcore.a
 
 .PHONY : CMakeFiles/core.dir/build
 
-CMakeFiles/core.dir/requires: CMakeFiles/core.dir/src/area_ratio_get.cpp.o.requires
 CMakeFiles/core.dir/requires: CMakeFiles/core.dir/src/internal_angles.cpp.o.requires
 CMakeFiles/core.dir/requires: CMakeFiles/core.dir/src/second_fundamental_form.cpp.o.requires
 CMakeFiles/core.dir/requires: CMakeFiles/core.dir/src/area_ball.cpp.o.requires
 CMakeFiles/core.dir/requires: CMakeFiles/core.dir/src/compute_area_ratio.cpp.o.requires
 CMakeFiles/core.dir/requires: CMakeFiles/core.dir/src/corrected_area.cpp.o.requires
+CMakeFiles/core.dir/requires: CMakeFiles/core.dir/src/area_ratio_at_v.cpp.o.requires
 CMakeFiles/core.dir/requires: CMakeFiles/core.dir/src/second_fundamental_form_ball.cpp.o.requires
 CMakeFiles/core.dir/requires: CMakeFiles/core.dir/src/compute_big_M.cpp.o.requires
 CMakeFiles/core.dir/requires: CMakeFiles/core.dir/src/anisotropic_measure.cpp.o.requires
+CMakeFiles/core.dir/requires: CMakeFiles/core.dir/src/curvatures_at_point.cpp.o.requires
 
 .PHONY : CMakeFiles/core.dir/requires
 

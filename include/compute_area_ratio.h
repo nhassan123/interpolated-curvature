@@ -15,6 +15,6 @@ Outputs:
 
 void compute_area_ratio(
   const Eigen::MatrixXd & V,
-  const Eigen::MatrixXi & F,
+  const Eigen::MatrixXd & F,
   Eigen::MatrixXd & A_ratio);
 #endif

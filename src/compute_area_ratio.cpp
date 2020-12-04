@@ -1,10 +1,10 @@
 #include "../include/compute_area_ratio.h"
-#include <igl/squared_edge_lengths>
+#include <igl/squared_edge_lengths.h>
 #include <math.h>
 
 void compute_area_ratio(
 	const Eigen::MatrixXd & V,
-	const Eigen::MatrixXi & F,
+	const Eigen::MatrixXd & F,
 	Eigen::MatrixXd & A_ratio){
   
   	//Create l_sqr #F by 3 list squared edge-lengths opposite respective corner
@@ -28,8 +28,9 @@ void compute_area_ratio(
 	}
 
 	//Create A_ratio = A / 2*pi
-	A_ratio.resizeLike(A);
-	A_ratio = A / (2 * pi);
+	A_ratio.resizeLike(A_angles);
+	A_ratio = A_angles / (2 * M_PI);
+	//A_ratio = Eigen::MatrixXd::Zero(5,5);
   }
 
 

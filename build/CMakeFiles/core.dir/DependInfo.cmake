@@ -6,10 +6,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/najah/Documents/MASc/geomProc/interpolated-curvature/src/anisotropic_measure.cpp" "/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/core.dir/src/anisotropic_measure.cpp.o"
   "/home/najah/Documents/MASc/geomProc/interpolated-curvature/src/area_ball.cpp" "/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/core.dir/src/area_ball.cpp.o"
-  "/home/najah/Documents/MASc/geomProc/interpolated-curvature/src/area_ratio_get.cpp" "/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/core.dir/src/area_ratio_get.cpp.o"
+  "/home/najah/Documents/MASc/geomProc/interpolated-curvature/src/area_ratio_at_v.cpp" "/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/core.dir/src/area_ratio_at_v.cpp.o"
   "/home/najah/Documents/MASc/geomProc/interpolated-curvature/src/compute_area_ratio.cpp" "/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/core.dir/src/compute_area_ratio.cpp.o"
   "/home/najah/Documents/MASc/geomProc/interpolated-curvature/src/compute_big_M.cpp" "/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/core.dir/src/compute_big_M.cpp.o"
   "/home/najah/Documents/MASc/geomProc/interpolated-curvature/src/corrected_area.cpp" "/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/core.dir/src/corrected_area.cpp.o"
+  "/home/najah/Documents/MASc/geomProc/interpolated-curvature/src/curvatures_at_point.cpp" "/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/core.dir/src/curvatures_at_point.cpp.o"
   "/home/najah/Documents/MASc/geomProc/interpolated-curvature/src/internal_angles.cpp" "/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/core.dir/src/internal_angles.cpp.o"
   "/home/najah/Documents/MASc/geomProc/interpolated-curvature/src/second_fundamental_form.cpp" "/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/core.dir/src/second_fundamental_form.cpp.o"
   "/home/najah/Documents/MASc/geomProc/interpolated-curvature/src/second_fundamental_form_ball.cpp" "/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/core.dir/src/second_fundamental_form_ball.cpp.o"

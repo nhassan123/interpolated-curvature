@@ -9,6 +9,8 @@ void corrected_area(
   const Eigen::VectorXd & uk,
   double & area_density
   ){
-    //code
+    Eigen::VectorXd ubar = (ui+uj+uk) / 3;
+    Eigen::VectorXd norm_tri = (xj-xi).cross(xk-xi);
+    area_density = (ubar.dot(norm_tri)) / 2;
   }
 

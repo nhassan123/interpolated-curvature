@@ -1,16 +1,46 @@
 #include "../include/anisotropic_measure.h"
+#include "../include/second_fundamental_form_ball.h"
 
 void anisotropic_measure(
-  const Eigen::VectorXd & e1,
-  const Eigen::VectorXd & e2,
-  const Eigen::VectorXd & e3,
-  const Eigen::VectorXd & xi,
-  const Eigen::VectorXd & xj,
-  const Eigen::VectorXd & xk,
-  const Eigen::VectorXd & ui,
-  const Eigen::VectorXd & uj,
-  const Eigen::VectorXd & uk,
+  const Eigen::MatrixXd & F,
+  const Eigen::MatrixXd & V,
+  const Eigen::MatrixXd & N,
+  const Eigen::MatrixXd & A_ratio_at_v,
+  const int & v,
   Eigen::MatrixXd & a_m)
   {
-    //code
+    Eigen::VectorXd e1, e2, e3;
+    e1 << 1, 0, 0;
+    e2 << 0, 1, 0;
+    e3 << 0, 0, 1;
+    //Eigen::VectorXd e2 = [0 1 0];
+    //Eigen::VectorXd e3 = [0 0 1];
+
+    Eigen::VectorXd ei, ej;
+
+    double sff_ij;
+
+    for(int i =0; i< 3; i++){
+      for(int j=0; j<3; j++){
+        switch(i){
+          case 0:
+            ei = e1;
+          case 1:
+            ei = e2;
+          case 2:
+            ei = e3;
+        }
+        switch(j){
+          case 0:
+            ej = e1;
+          case 1:
+            ej = e2;
+          case 2:
+            ej = e3;
+        }
+
+        second_fundamental_form_ball(ei, ej, F, V, N, A_ratio_at_v, v, sff_ij);
+        a_m(i,j) =  sff_ij;
+      }
+    }
   }

@@ -18,15 +18,11 @@
 */
 
 void anisotropic_measure(
-  const Eigen::VectorXd & e1,
-  const Eigen::VectorXd & e2,
-  const Eigen::VectorXd & e3,
-  const Eigen::VectorXd & xi,
-  const Eigen::VectorXd & xj,
-  const Eigen::VectorXd & xk,
-  const Eigen::VectorXd & ui,
-  const Eigen::VectorXd & uj,
-  const Eigen::VectorXd & uk,
+  const Eigen::MatrixXd & F,
+  const Eigen::MatrixXd & V,
+  const Eigen::MatrixXd & N,
+  const Eigen::MatrixXd & A_ratio_at_v,
+  const int & v,
   Eigen::MatrixXd & a_m);
 #endif
 

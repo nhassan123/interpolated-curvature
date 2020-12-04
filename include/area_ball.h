@@ -14,6 +14,7 @@
 void area_ball(
   const Eigen::MatrixXd & V,
   const Eigen::MatrixXd & F,
+  const Eigen::MatrixXd & N,
   const Eigen::MatrixXd & A_ratio,
   const int & v,
   double & area_ball

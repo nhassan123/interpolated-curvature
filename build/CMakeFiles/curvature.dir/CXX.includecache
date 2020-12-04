@@ -3247,6 +3247,8 @@ Eigen/Core
 /home/najah/Documents/MASc/geomProc/interpolated-curvature/include/compute_big_M.h
 Eigen/Core
 -
+Eigen/Sparse
+-
 
 /home/najah/Documents/MASc/geomProc/interpolated-curvature/include/curvatures_at_point.h
 Eigen/Core

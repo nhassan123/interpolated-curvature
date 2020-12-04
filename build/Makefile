@@ -243,32 +243,32 @@ src/area_ball.cpp.s:
 	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/area_ball.cpp.s
 .PHONY : src/area_ball.cpp.s
 
-src/area_ratio_get.o: src/area_ratio_get.cpp.o
+src/area_ratio_at_v.o: src/area_ratio_at_v.cpp.o
 
-.PHONY : src/area_ratio_get.o
+.PHONY : src/area_ratio_at_v.o
 
 # target to build an object file
-src/area_ratio_get.cpp.o:
-	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/area_ratio_get.cpp.o
-.PHONY : src/area_ratio_get.cpp.o
+src/area_ratio_at_v.cpp.o:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/area_ratio_at_v.cpp.o
+.PHONY : src/area_ratio_at_v.cpp.o
 
-src/area_ratio_get.i: src/area_ratio_get.cpp.i
+src/area_ratio_at_v.i: src/area_ratio_at_v.cpp.i
 
-.PHONY : src/area_ratio_get.i
+.PHONY : src/area_ratio_at_v.i
 
 # target to preprocess a source file
-src/area_ratio_get.cpp.i:
-	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/area_ratio_get.cpp.i
-.PHONY : src/area_ratio_get.cpp.i
+src/area_ratio_at_v.cpp.i:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/area_ratio_at_v.cpp.i
+.PHONY : src/area_ratio_at_v.cpp.i
 
-src/area_ratio_get.s: src/area_ratio_get.cpp.s
+src/area_ratio_at_v.s: src/area_ratio_at_v.cpp.s
 
-.PHONY : src/area_ratio_get.s
+.PHONY : src/area_ratio_at_v.s
 
 # target to generate assembly for a file
-src/area_ratio_get.cpp.s:
-	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/area_ratio_get.cpp.s
-.PHONY : src/area_ratio_get.cpp.s
+src/area_ratio_at_v.cpp.s:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/area_ratio_at_v.cpp.s
+.PHONY : src/area_ratio_at_v.cpp.s
 
 src/compute_area_ratio.o: src/compute_area_ratio.cpp.o
 
@@ -350,6 +350,33 @@ src/corrected_area.s: src/corrected_area.cpp.s
 src/corrected_area.cpp.s:
 	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/corrected_area.cpp.s
 .PHONY : src/corrected_area.cpp.s
+
+src/curvatures_at_point.o: src/curvatures_at_point.cpp.o
+
+.PHONY : src/curvatures_at_point.o
+
+# target to build an object file
+src/curvatures_at_point.cpp.o:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/curvatures_at_point.cpp.o
+.PHONY : src/curvatures_at_point.cpp.o
+
+src/curvatures_at_point.i: src/curvatures_at_point.cpp.i
+
+.PHONY : src/curvatures_at_point.i
+
+# target to preprocess a source file
+src/curvatures_at_point.cpp.i:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/curvatures_at_point.cpp.i
+.PHONY : src/curvatures_at_point.cpp.i
+
+src/curvatures_at_point.s: src/curvatures_at_point.cpp.s
+
+.PHONY : src/curvatures_at_point.s
+
+# target to generate assembly for a file
+src/curvatures_at_point.cpp.s:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/curvatures_at_point.cpp.s
+.PHONY : src/curvatures_at_point.cpp.s
 
 src/internal_angles.o: src/internal_angles.cpp.o
 
@@ -453,9 +480,9 @@ help:
 	@echo "... src/area_ball.o"
 	@echo "... src/area_ball.i"
 	@echo "... src/area_ball.s"
-	@echo "... src/area_ratio_get.o"
-	@echo "... src/area_ratio_get.i"
-	@echo "... src/area_ratio_get.s"
+	@echo "... src/area_ratio_at_v.o"
+	@echo "... src/area_ratio_at_v.i"
+	@echo "... src/area_ratio_at_v.s"
 	@echo "... src/compute_area_ratio.o"
 	@echo "... src/compute_area_ratio.i"
 	@echo "... src/compute_area_ratio.s"
@@ -465,6 +492,9 @@ help:
 	@echo "... src/corrected_area.o"
 	@echo "... src/corrected_area.i"
 	@echo "... src/corrected_area.s"
+	@echo "... src/curvatures_at_point.o"
+	@echo "... src/curvatures_at_point.i"
+	@echo "... src/curvatures_at_point.s"
 	@echo "... src/internal_angles.o"
 	@echo "... src/internal_angles.i"
 	@echo "... src/internal_angles.s"

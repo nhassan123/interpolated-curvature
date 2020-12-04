@@ -1,6 +1,7 @@
 #ifndef COMPUTE_BIG_M
 #define COMPUTE_BIG_M
 #include <Eigen/Core>
+#include <Eigen/Sparse>
 /*
 This function computes big_M at a specific vertex, indexed by v
 Inputs:
@@ -17,8 +18,10 @@ void compute_big_M(
   const int v,
   const int K,
   const Eigen::MatrixXd & V,
+  const Eigen::MatrixXd & F,
   const Eigen::MatrixXd & N,
-  const Eigen::SparseMatrix<double> & A
+  const Eigen::SparseMatrix<double> & A,
+  const Eigen::MatrixXd & A_ratio_at_v,
   Eigen::MatrixXd & big_M);
 #endif
 
