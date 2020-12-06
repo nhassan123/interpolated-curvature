@@ -18,7 +18,9 @@ For each occurence in F, reference the corresponding entry in A_ratio to obtain 
 void area_ratio_at_v(
   const int v,
   const Eigen::MatrixXi & F, 
-  const Eigen::MatrixXd & A_ratio,
+  const Eigen::MatrixXd & A_angles,
+  const Eigen::MatrixXd & Areas,
+  const double r,
   Eigen::VectorXd & area_ratio_list_v);
 
 #endif

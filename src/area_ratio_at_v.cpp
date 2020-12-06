@@ -4,7 +4,9 @@
 void area_ratio_at_v(
   const int v,
   const Eigen::MatrixXi & F, 
-  const Eigen::MatrixXd & A_ratio,
+  const Eigen::MatrixXd & A_angles,
+  const Eigen::MatrixXd & Areas,
+  const double r,
   Eigen::VectorXd & area_ratio_list_v)
   {
  /*   std::cout << "1" << std::endl;
@@ -35,7 +37,7 @@ void area_ratio_at_v(
     			}
     		}
       }*/
-      Eigen::VectorXd area_list_v = Eigen::VectorXd::Zero(F.rows());
+      area_ratio_list_v = Eigen::VectorXd::Zero(F.rows());
       double sum = 0;
       for (int f = 0; f < F.rows(); ++f)
       {
@@ -44,12 +46,11 @@ void area_ratio_at_v(
           if (F(f, i) == v)
           {
             //std::cout << f << std::endl;
-            area_list_v(f) = A_ratio(f, i);
-            sum += A_ratio(f, i);
+            area_ratio_list_v(f) = A_angles(f, i) * r * r / (2 * Areas(f)); //for a circular section, A = theta/2 * r^2
+            //sum += A_angles(f, i);
           }
         }
-      }
-      area_ratio_list_v = area_list_v / sum;
+      }      
 
   }
 

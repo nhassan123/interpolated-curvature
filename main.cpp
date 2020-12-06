@@ -23,12 +23,16 @@ int main(int argc, char *argv[])
   igl::massmatrix(V,F,igl::MASSMATRIX_TYPE_DEFAULT,M);
   Eigen::VectorXd A = M.diagonal();
 
+  //std::cout << M << std::endl;
+  //std::cout << A << std::endl;
+
   Eigen::VectorXd D,G,H,K1,K2;
   Eigen::MatrixXd D1,D2;
 
-  int K = 1000;
+  int K = 10;
+  double r = 0.001;
 
-  curvatures_at_point(K, V, F, D1, D2, K1, K2);
+  curvatures_at_point(K, r, V, F, D1, D2, K1, K2, G, H);
   // Angle defect ~ locally integrated Gaussian curvature
   //angle_defect(V,F,D);
   // average locally (i.e., "un-integrate" to pointwise quantity for
@@ -40,13 +44,13 @@ int main(int argc, char *argv[])
   igl::opengl::glfw::Viewer viewer;
   std::cout<<R"(
 S,s      Stretch, squish color axis range
-G        Show Gaussian curvature (using principal_curvatures)
-g        Show Gaussian curvature (using angle_defect)
-M        Show discrete mean curvature (using principal_curvatures)
-m        Show discrete mean curvature (using mean_curvature)
+G        Show Gaussian curvature (using product of K1 and K2)
+g        Show Gaussian curvature (using curvatures_at_point)
+M        Show discrete mean curvature (using average of K1 and K2)
+m        Show discrete mean curvature (using curvatures_at_point)
 K        Show maximum curvature (using principal_curvatures)
 k        Show minimum curvature (using principal_curvatures)
-D,d      Show corrected principal curvature directions (using curvatures_at_point))
+D,d      Show corrected principal curvature directions (using curvatures_at_point)
 C        Show corrected first principal curvatures (using curvatures_at_point)
 c        Show corrected second principal curvatures (using curvatures_at_point) 
 )";
@@ -74,7 +78,7 @@ c        Show corrected second principal curvatures (using curvatures_at_point)
         Z = K1.array()*K2.array();
         break;
       case 'g':
-        //Z = G;
+        Z = G;
         break;
       case 'K':
         //Z = K1;
@@ -86,7 +90,7 @@ c        Show corrected second principal curvatures (using curvatures_at_point)
         Z = 0.5*(K1+K2);
         break;
       case 'm':
-        //Z = H;
+        Z = H;
         break;
       case 'S':
       case 's':

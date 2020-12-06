@@ -18,11 +18,15 @@ Outputs:
 
 void curvatures_at_point(
     const int K,
+    const double r,
     const Eigen::MatrixXd & V,
     const Eigen::MatrixXi & F,
     Eigen::MatrixXd & D1,
     Eigen::MatrixXd & D2,
     Eigen::VectorXd & K1,
-    Eigen::VectorXd & K2);
+    Eigen::VectorXd & K2,
+    Eigen::VectorXd & G,
+    Eigen::VectorXd & H
+    );
 #endif
 
