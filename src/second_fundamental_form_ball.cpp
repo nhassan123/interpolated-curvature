@@ -1,5 +1,6 @@
 #include "../include/second_fundamental_form_ball.h"
 #include "../include/second_fundamental_form.h"
+#include <iostream>
 
 void second_fundamental_form_ball(
   const Eigen::VectorXd & X,
@@ -9,7 +10,7 @@ void second_fundamental_form_ball(
   const Eigen::MatrixXd & N,
   const Eigen::MatrixXd & A_ratio_at_v,
   const int & v,
-  double sff_ball){
+  double & sff_ball){
     sff_ball = 0;
     int vert_1, vert_2, vert_3;
     Eigen::VectorXd xi, xj, xk, ui, uj, uk;
@@ -30,7 +31,9 @@ void second_fundamental_form_ball(
         uk = N.row(vert_3);
         
         second_fundamental_form(X,Y,xi, xj, xk, ui, uj, uk, sff_store);
-        sff_ball = sff_ball + A_ratio_at_v(i)*sff_store; 
+        sff_ball = sff_ball + A_ratio_at_v(i)*sff_store;
+        //std::cout << sff_ball << std::endl;
       }
     }
+    //std::cout << "sff_ball: " << sff_ball << std::endl;
   }

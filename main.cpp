@@ -29,7 +29,7 @@ int main(int argc, char *argv[])
   Eigen::VectorXd D,G,H,K1,K2;
   Eigen::MatrixXd D1,D2;
 
-  int K = 10;
+  int K = 1000;
   double r = 0.001;
 
   curvatures_at_point(K, r, V, F, D1, D2, K1, K2, G, H);

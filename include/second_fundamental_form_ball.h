@@ -22,6 +22,6 @@ void second_fundamental_form_ball(
   const Eigen::MatrixXd & N,
   const Eigen::MatrixXd & A_ratio_at_v,
   const int & v,
-  double sff_ball);
+  double & sff_ball);
 #endif
 

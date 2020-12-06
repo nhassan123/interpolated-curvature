@@ -39,7 +39,7 @@ void compute_big_M(
     Eigen::MatrixXd mu_M = Eigen::MatrixXd::Zero(3, 3);
     anisotropic_measure(F, V, N, A_ratio_at_V, v, mu_M);					
 
-    //std::cout << "2" << std::endl;
+    //std::cout << mu_M.maxCoeff() << std::endl;
 
     big_M.resize(3, 3);
     big_M = 0.5 * (mu_M + mu_M.transpose()) + K * N.row(v).transpose() * N.row(v);

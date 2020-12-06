@@ -62,7 +62,7 @@ void curvatures_at_point(
   	{
       //std::cout << "a" << std::endl;
   		Eigen::VectorXd area_ratio_list_v;
-  		area_ratio_at_v(v, F, A_angles, Areas, r, area_ratio_list_v);		//compute area ratios
+  		area_ratio_at_v(v, V, F, A_angles, Areas, r, area_ratio_list_v);		//compute area ratios
 /*      for (int i = 0; i < area_ratio_list_v.rows(); ++i)
       {
         if (area_ratio_list_v(i) != 0)
@@ -94,19 +94,20 @@ void curvatures_at_point(
       Eigen::VectorXd z_1 = es.eigenvectors().col(0);
       Eigen::VectorXd z_2 = es.eigenvectors().col(1);
       //Eigen::VectorXd z_3 = es.eigenvectors().col(2);
-/*      std::cout << "lamda_1:"<< lambda_1<< std::endl;
-	    std::cout << "lamda_2:"<< lambda_2<< std::endl;
-      std::cout << "lamda_3:"<< lambda_3<< std::endl;
-	    std::cout<<"z_1: "<<z_1(0)<<" "<<z_1(1)<<" "<<z_1(2)<<std::endl;
-	    std::cout<<"z_2: "<<z_2(0)<<" "<<z_2(1)<<" "<<z_2(2)<<std::endl;
-      std::cout<<"z_3: "<<z_3(0)<<" "<<z_3(1)<<" "<<z_3(2)<<std::endl;*/
+      //std::cout << "lamda_1:"<< lambda_1<< std::endl;
+	    //std::cout << "lamda_2:"<< lambda_2<< std::endl;
+
+      //std::cout << "lamda_3:"<< lambda_3<< std::endl;
+	    //std::cout<<"z_1: "<<z_1(0)<<" "<<z_1(1)<<" "<<z_1(2)<<std::endl;
+	    //std::cout<<"z_2: "<<z_2(0)<<" "<<z_2(1)<<" "<<z_2(2)<<std::endl;
+      //std::cout<<"z_3: "<<z_3(0)<<" "<<z_3(1)<<" "<<z_3(2)<<std::endl;
   	  K1(v) = -lambda_2 / mu_0;
       K2(v) = -lambda_1 / mu_0;
   	  D1.row(v) = z_2.transpose() / mu_0;
   	  D2.row(v) = z_1.transpose() / mu_0;
-	  D1.row(v).normalize(); 
-	  D2.row(v).normalize();
-
+      D1.row(v).normalize(); 
+      D2.row(v).normalize();
+      //std::cout << "mu_0:"<< mu_0 << std::endl;
 
     double mu_1 = 0;
     double mu_2 = 0;
