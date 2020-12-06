@@ -25,6 +25,10 @@ int main(int argc, char *argv[])
 
   Eigen::VectorXd D,G,H,K1,K2;
   Eigen::MatrixXd D1,D2;
+
+  int K = 1000;
+
+  curvatures_at_point(K, V, F, D1, D2, K1, K2);
   // Angle defect ~ locally integrated Gaussian curvature
   //angle_defect(V,F,D);
   // average locally (i.e., "un-integrate" to pointwise quantity for
@@ -44,6 +48,7 @@ K        Show maximum curvature (using principal_curvatures)
 k        Show minimum curvature (using principal_curvatures)
 D,d      Show principal directions 
 )";
+  
   // Default to mean curvature
   //Eigen::VectorXd Z = H;
   // const auto update = [&]()

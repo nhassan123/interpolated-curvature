@@ -4,7 +4,7 @@
 void second_fundamental_form_ball(
   const Eigen::VectorXd & X,
   const Eigen::VectorXd & Y,
-  const Eigen::MatrixXd & F,
+  const Eigen::MatrixXi & F,
   const Eigen::MatrixXd & V,
   const Eigen::MatrixXd & N,
   const Eigen::MatrixXd & A_ratio_at_v,

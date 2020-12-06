@@ -10,7 +10,7 @@ void corrected_area(
   double & area_density
   ){
     Eigen::VectorXd ubar = (ui+uj+uk) / 3;
-    Eigen::VectorXd norm_tri = (xj-xi).cross(xk-xi);
-    area_density = (ubar.dot(norm_tri)) / 2;
+    Eigen::VectorXd norm_tri = (xj-xi); //.cross(xk-xi);
+    area_density = 0; //(ubar.dot(norm_tri)) / 2;
   }
 

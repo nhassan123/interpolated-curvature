@@ -10,7 +10,7 @@
 void curvatures_at_point(
   const int K,
 	const Eigen::MatrixXd & V,
-	const Eigen::MatrixXd & F,
+	const Eigen::MatrixXi & F,
 	Eigen::MatrixXd & D1,
   Eigen::MatrixXd & D2,
   Eigen::VectorXd & K1,

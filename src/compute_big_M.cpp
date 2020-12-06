@@ -5,7 +5,7 @@ void compute_big_M(
   const int v,
   const int K,
   const Eigen::MatrixXd & V,
-  const Eigen::MatrixXd & F,
+  const Eigen::MatrixXi & F,
   const Eigen::MatrixXd & N,
   const Eigen::SparseMatrix<double> & A,
   const Eigen::MatrixXd & A_ratio_at_V,

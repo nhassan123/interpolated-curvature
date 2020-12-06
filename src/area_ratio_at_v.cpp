@@ -3,7 +3,7 @@
 void area_ratio_at_v(
   const int v,
   const Eigen::SparseMatrix<double>& A,
-  const Eigen::MatrixXd & F, 
+  const Eigen::MatrixXi & F, 
   const Eigen::MatrixXd & A_ratio,
   Eigen::VectorXd & area_ratio_list_v)
   {

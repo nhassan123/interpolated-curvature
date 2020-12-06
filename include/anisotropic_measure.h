@@ -18,7 +18,7 @@
 */
 
 void anisotropic_measure(
-  const Eigen::MatrixXd & F,
+  const Eigen::MatrixXi & F,
   const Eigen::MatrixXd & V,
   const Eigen::MatrixXd & N,
   const Eigen::MatrixXd & A_ratio_at_v,

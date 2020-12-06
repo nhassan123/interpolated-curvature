@@ -3,7 +3,7 @@
 
 void area_ball(
   const Eigen::MatrixXd & V,
-  const Eigen::MatrixXd & F,
+  const Eigen::MatrixXi & F,
   const Eigen::MatrixXd & N,
   const Eigen::MatrixXd & A_ratio_at_v,
   const int & v,

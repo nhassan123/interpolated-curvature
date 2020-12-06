@@ -4,7 +4,7 @@
 
 void compute_area_ratio(
 	const Eigen::MatrixXd & V,
-	const Eigen::MatrixXd & F,
+	const Eigen::MatrixXi & F,
 	Eigen::MatrixXd & A_ratio){
   
   	//Create l_sqr #F by 3 list squared edge-lengths opposite respective corner
