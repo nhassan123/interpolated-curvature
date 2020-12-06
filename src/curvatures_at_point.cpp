@@ -66,7 +66,7 @@ void curvatures_at_point(
 
   		double mu_0;
   		area_ball(V, F, N, area_ratio_list_v, v, mu_0);			//compute mu_0
-
+        std::cout<<"mu_0:"<< mu_0 <<std::endl;
       //std::cout << "c" << std::endl;
 
   		Eigen::MatrixXd big_M = Eigen::MatrixXd::Zero(3, 3);
@@ -81,11 +81,17 @@ void curvatures_at_point(
       double lambda_2 = es.eigenvalues()[1];
       Eigen::VectorXd z_1 = es.eigenvectors().col(0);
       Eigen::VectorXd z_2 = es.eigenvectors().col(1);
-      //std::cout << "e" << std::endl;
+    //   std::cout << "lamda_1:"<< lambda_1<< std::endl;
+	//   std::cout << "lamda_2:"<< lambda_1<< std::endl;
+	//   std::cout<<"z_1: "<<z_1(0)<<" "<<z_1(1)<<" "<<z_1(2)<<std::endl;
+	//   std::cout<<"z_2: "<<z_2(0)<<" "<<z_2(1)<<" "<<z_2(2)<<std::endl;
   	  K1(v) = -lambda_2 / mu_0;
       K2(v) = -lambda_1 / mu_0;
   	  D1.row(v) = z_2.transpose() / mu_0;
   	  D2.row(v) = z_1.transpose() / mu_0;
+	  D1.row(v).normalize(); 
+	  D2.row(v).normalize(); 
+	  std::cout<<"vertex #:"<< v << std::endl;
 
   	}
     //std::cout << "6" << std::endl;

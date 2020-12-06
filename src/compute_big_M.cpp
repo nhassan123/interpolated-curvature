@@ -43,7 +43,7 @@ void compute_big_M(
     //std::cout << "2" << std::endl;
 
     big_M.resize(3, 3);
-    big_M = 0.5 * (mu_M + mu_M.transpose()) + K * N.row(v) * N.row(v).transpose();
+    big_M = 0.5 * (mu_M + mu_M.transpose()) + K * N.row(v).transpose() * N.row(v);
 
     //std::cout << "3" << std::endl;
   }

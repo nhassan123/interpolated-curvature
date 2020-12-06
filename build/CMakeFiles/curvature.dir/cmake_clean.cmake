@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/curvature.dir/main.cpp.obj"
-  "curvature.exe"
-  "curvature.exe.manifest"
-  "curvature.lib"
+  "CMakeFiles/curvature.dir/main.cpp.o"
   "curvature.pdb"
+  "curvature"
 )
 
 # Per-language clean rules from dependency scanning.

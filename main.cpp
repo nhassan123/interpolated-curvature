@@ -71,7 +71,7 @@ c        Show corrected second principal curvatures (using curvatures_at_point)
         viewer.data().show_overlay ^= 1;
         break;
       case 'G':
-        //Z = K1.array()*K2.array();
+        Z = K1.array()*K2.array();
         break;
       case 'g':
         //Z = G;
@@ -83,7 +83,7 @@ c        Show corrected second principal curvatures (using curvatures_at_point)
         //Z = K2;
         break;
       case 'M':
-        //Z = 0.5*(K1+K2);
+        Z = 0.5*(K1+K2);
         break;
       case 'm':
         //Z = H;

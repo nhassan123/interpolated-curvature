@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -34,7 +34,7 @@ stdint.h
 inttypes.h
 -
 
-C:/Users/Jeffrey/Documents/MASc/Year 1/CSC2520/Project/interpolated-curvature/libigl/external/glad/src/glad.c
+/home/najah/Documents/MASc/geomProc/interpolated-curvature/libigl/external/glad/src/glad.c
 stdio.h
 -
 stdlib.h

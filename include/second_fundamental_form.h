@@ -1,6 +1,7 @@
 #ifndef SECOND_FUNDAMENTAL
 #define SECOND_FUNDAMENTAL
 #include <Eigen/Core>
+#include <Eigen/Dense>
 // Compute the second fundamental form of a triangle using two given directions X, Y
 // 
 // Inputs:

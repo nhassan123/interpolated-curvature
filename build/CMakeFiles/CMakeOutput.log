@@ -28,28 +28,28 @@ The CXX compiler identification is GNU, found in "/home/najah/Documents/MASc/geo
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e37bf/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e37bf.dir/build.make CMakeFiles/cmTC_e37bf.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_46ac1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_46ac1.dir/build.make CMakeFiles/cmTC_46ac1.dir/build
 make[1]: Entering directory '/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e37bf.dir/testCCompiler.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_e37bf.dir/testCCompiler.c.o   -c /home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_e37bf
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e37bf.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_e37bf.dir/testCCompiler.c.o  -o cmTC_e37bf -rdynamic 
+Building C object CMakeFiles/cmTC_46ac1.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_46ac1.dir/testCCompiler.c.o   -c /home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_46ac1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46ac1.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_46ac1.dir/testCCompiler.c.o  -o cmTC_46ac1 -rdynamic 
 make[1]: Leaving directory '/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_64994/fast"
-/usr/bin/make -f CMakeFiles/cmTC_64994.dir/build.make CMakeFiles/cmTC_64994.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_f26e9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f26e9.dir/build.make CMakeFiles/cmTC_f26e9.dir/build
 make[1]: Entering directory '/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_64994.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_64994.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_64994
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64994.dir/link.txt --verbose=1
-/usr/bin/cc      -v CMakeFiles/cmTC_64994.dir/CMakeCCompilerABI.c.o  -o cmTC_64994 -rdynamic  
+Building C object CMakeFiles/cmTC_f26e9.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_f26e9.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_f26e9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f26e9.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_f26e9.dir/CMakeCCompilerABI.c.o  -o cmTC_f26e9 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -59,8 +59,8 @@ Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_64994' '-rdynamic' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cclRQpuX.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_64994 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_64994.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f26e9' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpqUWAt.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_f26e9 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_f26e9.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory '/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp'
 
 
@@ -68,14 +68,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_64994/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_64994.dir/build.make CMakeFiles/cmTC_64994.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_f26e9/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_f26e9.dir/build.make CMakeFiles/cmTC_f26e9.dir/build]
   ignore line: [make[1]: Entering directory '/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_64994.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_64994.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_64994]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64994.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_64994.dir/CMakeCCompilerABI.c.o  -o cmTC_64994 -rdynamic  ]
+  ignore line: [Building C object CMakeFiles/cmTC_f26e9.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_f26e9.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_f26e9]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f26e9.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_f26e9.dir/CMakeCCompilerABI.c.o  -o cmTC_f26e9 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -85,13 +85,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_64994' '-rdynamic' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cclRQpuX.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_64994 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_64994.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f26e9' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpqUWAt.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_f26e9 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_f26e9.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cclRQpuX.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccpqUWAt.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -109,7 +109,7 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_64994] ==> ignore
+    arg [cmTC_f26e9] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -121,7 +121,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_64994.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_f26e9.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -155,14 +155,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1054b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1054b.dir/build.make CMakeFiles/cmTC_1054b.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_c3e99/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c3e99.dir/build.make CMakeFiles/cmTC_c3e99.dir/build
 make[1]: Entering directory '/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1054b.dir/feature_tests.c.o
-/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_1054b.dir/feature_tests.c.o   -c /home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_1054b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1054b.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_1054b.dir/feature_tests.c.o  -o cmTC_1054b -rdynamic 
+Building C object CMakeFiles/cmTC_c3e99.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_c3e99.dir/feature_tests.c.o   -c /home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_c3e99
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3e99.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_c3e99.dir/feature_tests.c.o  -o cmTC_c3e99 -rdynamic 
 make[1]: Leaving directory '/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp'
 
 
@@ -175,14 +175,14 @@ make[1]: Leaving directory '/home/najah/Documents/MASc/geomProc/interpolated-cur
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_fc86b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_fc86b.dir/build.make CMakeFiles/cmTC_fc86b.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_1738e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1738e.dir/build.make CMakeFiles/cmTC_1738e.dir/build
 make[1]: Entering directory '/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_fc86b.dir/feature_tests.c.o
-/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_fc86b.dir/feature_tests.c.o   -c /home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_fc86b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc86b.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_fc86b.dir/feature_tests.c.o  -o cmTC_fc86b -rdynamic 
+Building C object CMakeFiles/cmTC_1738e.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_1738e.dir/feature_tests.c.o   -c /home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_1738e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1738e.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_1738e.dir/feature_tests.c.o  -o cmTC_1738e -rdynamic 
 make[1]: Leaving directory '/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp'
 
 
@@ -195,14 +195,14 @@ make[1]: Leaving directory '/home/najah/Documents/MASc/geomProc/interpolated-cur
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d81e4/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d81e4.dir/build.make CMakeFiles/cmTC_d81e4.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_5efcd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5efcd.dir/build.make CMakeFiles/cmTC_5efcd.dir/build
 make[1]: Entering directory '/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d81e4.dir/feature_tests.c.o
-/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_d81e4.dir/feature_tests.c.o   -c /home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_d81e4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d81e4.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_d81e4.dir/feature_tests.c.o  -o cmTC_d81e4 -rdynamic 
+Building C object CMakeFiles/cmTC_5efcd.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_5efcd.dir/feature_tests.c.o   -c /home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_5efcd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5efcd.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_5efcd.dir/feature_tests.c.o  -o cmTC_5efcd -rdynamic 
 make[1]: Leaving directory '/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp'
 
 
@@ -213,28 +213,28 @@ make[1]: Leaving directory '/home/najah/Documents/MASc/geomProc/interpolated-cur
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a69af/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a69af.dir/build.make CMakeFiles/cmTC_a69af.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_2c38d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2c38d.dir/build.make CMakeFiles/cmTC_2c38d.dir/build
 make[1]: Entering directory '/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_a69af.dir/testCXXCompiler.cxx.o
-/usr/bin/c++      -o CMakeFiles/cmTC_a69af.dir/testCXXCompiler.cxx.o -c /home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_a69af
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a69af.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_a69af.dir/testCXXCompiler.cxx.o  -o cmTC_a69af -rdynamic 
+Building CXX object CMakeFiles/cmTC_2c38d.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_2c38d.dir/testCXXCompiler.cxx.o -c /home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_2c38d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c38d.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_2c38d.dir/testCXXCompiler.cxx.o  -o cmTC_2c38d -rdynamic 
 make[1]: Leaving directory '/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a54c6/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a54c6.dir/build.make CMakeFiles/cmTC_a54c6.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_6ac38/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6ac38.dir/build.make CMakeFiles/cmTC_6ac38.dir/build
 make[1]: Entering directory '/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_a54c6.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++      -o CMakeFiles/cmTC_a54c6.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_a54c6
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a54c6.dir/link.txt --verbose=1
-/usr/bin/c++       -v CMakeFiles/cmTC_a54c6.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a54c6 -rdynamic  
+Building CXX object CMakeFiles/cmTC_6ac38.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_6ac38.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_6ac38
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6ac38.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_6ac38.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_6ac38 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -244,8 +244,8 @@ Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a54c6' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cceH5U8p.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_a54c6 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_a54c6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6ac38' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTi5H1N.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_6ac38 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_6ac38.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory '/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp'
 
 
@@ -253,14 +253,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_a54c6/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_a54c6.dir/build.make CMakeFiles/cmTC_a54c6.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_6ac38/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_6ac38.dir/build.make CMakeFiles/cmTC_6ac38.dir/build]
   ignore line: [make[1]: Entering directory '/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_a54c6.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_a54c6.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_a54c6]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a54c6.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_a54c6.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a54c6 -rdynamic  ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_6ac38.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_6ac38.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_6ac38]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6ac38.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_6ac38.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_6ac38 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -270,13 +270,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a54c6' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cceH5U8p.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_a54c6 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_a54c6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6ac38' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTi5H1N.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_6ac38 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_6ac38.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cceH5U8p.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccTi5H1N.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -294,7 +294,7 @@ Parsed CXX implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_a54c6] ==> ignore
+    arg [cmTC_6ac38] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -306,7 +306,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_a54c6.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_6ac38.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -338,14 +338,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_eb96e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_eb96e.dir/build.make CMakeFiles/cmTC_eb96e.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_0e0cd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0e0cd.dir/build.make CMakeFiles/cmTC_0e0cd.dir/build
 make[1]: Entering directory '/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_eb96e.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_eb96e.dir/feature_tests.cxx.o -c /home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_eb96e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb96e.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_eb96e.dir/feature_tests.cxx.o  -o cmTC_eb96e -rdynamic 
+Building CXX object CMakeFiles/cmTC_0e0cd.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_0e0cd.dir/feature_tests.cxx.o -c /home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_0e0cd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e0cd.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_0e0cd.dir/feature_tests.cxx.o  -o cmTC_0e0cd -rdynamic 
 make[1]: Leaving directory '/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp'
 
 
@@ -411,14 +411,14 @@ make[1]: Leaving directory '/home/najah/Documents/MASc/geomProc/interpolated-cur
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f88eb/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f88eb.dir/build.make CMakeFiles/cmTC_f88eb.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_335f5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_335f5.dir/build.make CMakeFiles/cmTC_335f5.dir/build
 make[1]: Entering directory '/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f88eb.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_f88eb.dir/feature_tests.cxx.o -c /home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_f88eb
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f88eb.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_f88eb.dir/feature_tests.cxx.o  -o cmTC_f88eb -rdynamic 
+Building CXX object CMakeFiles/cmTC_335f5.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_335f5.dir/feature_tests.cxx.o -c /home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_335f5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_335f5.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_335f5.dir/feature_tests.cxx.o  -o cmTC_335f5 -rdynamic 
 make[1]: Leaving directory '/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp'
 
 
@@ -484,14 +484,14 @@ make[1]: Leaving directory '/home/najah/Documents/MASc/geomProc/interpolated-cur
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c867b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c867b.dir/build.make CMakeFiles/cmTC_c867b.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_31ff6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_31ff6.dir/build.make CMakeFiles/cmTC_31ff6.dir/build
 make[1]: Entering directory '/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_c867b.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_c867b.dir/feature_tests.cxx.o -c /home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_c867b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c867b.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_c867b.dir/feature_tests.cxx.o  -o cmTC_c867b -rdynamic 
+Building CXX object CMakeFiles/cmTC_31ff6.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_31ff6.dir/feature_tests.cxx.o -c /home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_31ff6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31ff6.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_31ff6.dir/feature_tests.cxx.o  -o cmTC_31ff6 -rdynamic 
 make[1]: Leaving directory '/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp'
 
 
@@ -555,185 +555,112 @@ make[1]: Leaving directory '/home/najah/Documents/MASc/geomProc/interpolated-cur
 Determining if the include file pthread.h exists passed with the following output:
 Change Dir: /home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_06479/fast"
-/usr/bin/make -f CMakeFiles/cmTC_06479.dir/build.make CMakeFiles/cmTC_06479.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_cb28b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cb28b.dir/build.make CMakeFiles/cmTC_cb28b.dir/build
 make[1]: Entering directory '/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_06479.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -fPIC    -o CMakeFiles/cmTC_06479.dir/CheckIncludeFile.c.o   -c /home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_06479
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06479.dir/link.txt --verbose=1
-/usr/bin/cc   -fPIC     CMakeFiles/cmTC_06479.dir/CheckIncludeFile.c.o  -o cmTC_06479 -rdynamic 
+Building C object CMakeFiles/cmTC_cb28b.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -fPIC    -o CMakeFiles/cmTC_cb28b.dir/CheckIncludeFile.c.o   -c /home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_cb28b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb28b.dir/link.txt --verbose=1
+/usr/bin/cc   -fPIC     CMakeFiles/cmTC_cb28b.dir/CheckIncludeFile.c.o  -o cmTC_cb28b -rdynamic 
 make[1]: Leaving directory '/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
 Change Dir: /home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_94e70/fast"
-/usr/bin/make -f CMakeFiles/cmTC_94e70.dir/build.make CMakeFiles/cmTC_94e70.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_7dd6e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7dd6e.dir/build.make CMakeFiles/cmTC_7dd6e.dir/build
 make[1]: Entering directory '/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_94e70.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_94e70.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_94e70
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94e70.dir/link.txt --verbose=1
-/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_94e70.dir/CheckFunctionExists.c.o  -o cmTC_94e70 -rdynamic -lpthread 
+Building C object CMakeFiles/cmTC_7dd6e.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_7dd6e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7dd6e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7dd6e.dir/link.txt --verbose=1
+/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_7dd6e.dir/CheckFunctionExists.c.o  -o cmTC_7dd6e -rdynamic -lpthread 
 make[1]: Leaving directory '/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function XOpenDisplay exists in the /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so passed with the following output:
 Change Dir: /home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_fb051/fast"
-/usr/bin/make -f CMakeFiles/cmTC_fb051.dir/build.make CMakeFiles/cmTC_fb051.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_dd910/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dd910.dir/build.make CMakeFiles/cmTC_dd910.dir/build
 make[1]: Entering directory '/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_fb051.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -fPIC -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_fb051.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_fb051
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb051.dir/link.txt --verbose=1
-/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTC_fb051.dir/CheckFunctionExists.c.o  -o cmTC_fb051 -rdynamic /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
+Building C object CMakeFiles/cmTC_dd910.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fPIC -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_dd910.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_dd910
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd910.dir/link.txt --verbose=1
+/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTC_dd910.dir/CheckFunctionExists.c.o  -o cmTC_dd910 -rdynamic /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
 make[1]: Leaving directory '/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function gethostbyname exists passed with the following output:
 Change Dir: /home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_05c94/fast"
-/usr/bin/make -f CMakeFiles/cmTC_05c94.dir/build.make CMakeFiles/cmTC_05c94.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_de2aa/fast"
+/usr/bin/make -f CMakeFiles/cmTC_de2aa.dir/build.make CMakeFiles/cmTC_de2aa.dir/build
 make[1]: Entering directory '/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_05c94.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -fPIC -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_05c94.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_05c94
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05c94.dir/link.txt --verbose=1
-/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTC_05c94.dir/CheckFunctionExists.c.o  -o cmTC_05c94 -rdynamic 
+Building C object CMakeFiles/cmTC_de2aa.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fPIC -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_de2aa.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_de2aa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de2aa.dir/link.txt --verbose=1
+/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTC_de2aa.dir/CheckFunctionExists.c.o  -o cmTC_de2aa -rdynamic 
 make[1]: Leaving directory '/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function connect exists passed with the following output:
 Change Dir: /home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8045d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8045d.dir/build.make CMakeFiles/cmTC_8045d.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_30c94/fast"
+/usr/bin/make -f CMakeFiles/cmTC_30c94.dir/build.make CMakeFiles/cmTC_30c94.dir/build
 make[1]: Entering directory '/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8045d.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -fPIC -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_8045d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_8045d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8045d.dir/link.txt --verbose=1
-/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTC_8045d.dir/CheckFunctionExists.c.o  -o cmTC_8045d -rdynamic 
+Building C object CMakeFiles/cmTC_30c94.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fPIC -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_30c94.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_30c94
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30c94.dir/link.txt --verbose=1
+/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTC_30c94.dir/CheckFunctionExists.c.o  -o cmTC_30c94 -rdynamic 
 make[1]: Leaving directory '/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function remove exists passed with the following output:
 Change Dir: /home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_7e337/fast"
-/usr/bin/make -f CMakeFiles/cmTC_7e337.dir/build.make CMakeFiles/cmTC_7e337.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_a2b03/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a2b03.dir/build.make CMakeFiles/cmTC_a2b03.dir/build
 make[1]: Entering directory '/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_7e337.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -fPIC -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_7e337.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_7e337
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e337.dir/link.txt --verbose=1
-/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTC_7e337.dir/CheckFunctionExists.c.o  -o cmTC_7e337 -rdynamic 
+Building C object CMakeFiles/cmTC_a2b03.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fPIC -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_a2b03.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a2b03
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2b03.dir/link.txt --verbose=1
+/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTC_a2b03.dir/CheckFunctionExists.c.o  -o cmTC_a2b03 -rdynamic 
 make[1]: Leaving directory '/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function shmat exists passed with the following output:
 Change Dir: /home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2cc11/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2cc11.dir/build.make CMakeFiles/cmTC_2cc11.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_c595a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c595a.dir/build.make CMakeFiles/cmTC_c595a.dir/build
 make[1]: Entering directory '/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2cc11.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -fPIC -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_2cc11.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_2cc11
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2cc11.dir/link.txt --verbose=1
-/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTC_2cc11.dir/CheckFunctionExists.c.o  -o cmTC_2cc11 -rdynamic 
+Building C object CMakeFiles/cmTC_c595a.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fPIC -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_c595a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c595a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c595a.dir/link.txt --verbose=1
+/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTC_c595a.dir/CheckFunctionExists.c.o  -o cmTC_c595a -rdynamic 
 make[1]: Leaving directory '/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
 Change Dir: /home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2a81a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2a81a.dir/build.make CMakeFiles/cmTC_2a81a.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_ed968/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ed968.dir/build.make CMakeFiles/cmTC_ed968.dir/build
 make[1]: Entering directory '/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2a81a.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -fPIC -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_2a81a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_2a81a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a81a.dir/link.txt --verbose=1
-/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTC_2a81a.dir/CheckFunctionExists.c.o  -o cmTC_2a81a -rdynamic -lICE 
+Building C object CMakeFiles/cmTC_ed968.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fPIC -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_ed968.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ed968
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed968.dir/link.txt --verbose=1
+/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTC_ed968.dir/CheckFunctionExists.c.o  -o cmTC_ed968 -rdynamic -lICE 
 make[1]: Leaving directory '/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/CMakeTmp'
-
-
-The system is: Windows - 10.0.18363 - AMD64
-Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/bin/Hostx86/x86/cl.exe 
-Build flags: 
-Id flags:  
-
-The output was:
-0
-Microsoft (R) C/C++ Optimizing Compiler Version 19.27.29111 for x86
-Copyright (C) Microsoft Corporation.  All rights reserved.
-
-CMakeCCompilerId.c
-Microsoft (R) Incremental Linker Version 14.27.29111.0
-Copyright (C) Microsoft Corporation.  All rights reserved.
-
-/out:CMakeCCompilerId.exe 
-CMakeCCompilerId.obj 
-
-
-Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
-
-Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
-
-The C compiler identification is MSVC, found in "C:/Users/Jeffrey/Documents/MASc/Year 1/CSC2520/Project/interpolated-curvature/build/CMakeFiles/3.18.2/CompilerIdC/CMakeCCompilerId.exe"
-
-Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/bin/Hostx86/x86/cl.exe 
-Build flags: 
-Id flags:  
-
-The output was:
-0
-Microsoft (R) C/C++ Optimizing Compiler Version 19.27.29111 for x86
-Copyright (C) Microsoft Corporation.  All rights reserved.
-
-CMakeCXXCompilerId.cpp
-Microsoft (R) Incremental Linker Version 14.27.29111.0
-Copyright (C) Microsoft Corporation.  All rights reserved.
-
-/out:CMakeCXXCompilerId.exe 
-CMakeCXXCompilerId.obj 
-
-
-Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
-
-Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
-
-The CXX compiler identification is MSVC, found in "C:/Users/Jeffrey/Documents/MASc/Year 1/CSC2520/Project/interpolated-curvature/build/CMakeFiles/3.18.2/CompilerIdCXX/CMakeCXXCompilerId.exe"
-
-Detecting C compiler ABI info compiled with the following output:
-Change Dir: C:/Users/Jeffrey/Documents/MASc/Year 1/CSC2520/Project/interpolated-curvature/build/CMakeFiles/CMakeTmp
-
-Run Build Command(s):nmake /nologo cmTC_acf37\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_acf37.dir\build.make /nologo -L                  CMakeFiles\cmTC_acf37.dir\build
-Building C object CMakeFiles/cmTC_acf37.dir/CMakeCCompilerABI.c.obj
-	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @C:\Users\Jeffrey\AppData\Local\Temp\nmC1F8.tmp
-CMakeCCompilerABI.c
-Linking C executable cmTC_acf37.exe
-	"C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_acf37.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_acf37.dir\objects1.rsp @C:\Users\Jeffrey\AppData\Local\Temp\nmC2E3.tmp
-
-
-
-Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: C:/Users/Jeffrey/Documents/MASc/Year 1/CSC2520/Project/interpolated-curvature/build/CMakeFiles/CMakeTmp
-
-Run Build Command(s):nmake /nologo cmTC_49886\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_49886.dir\build.make /nologo -L                  CMakeFiles\cmTC_49886.dir\build
-Building CXX object CMakeFiles/cmTC_49886.dir/CMakeCXXCompilerABI.cpp.obj
-	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @C:\Users\Jeffrey\AppData\Local\Temp\nmCC29.tmp
-CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_49886.exe
-	"C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_49886.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_49886.dir\objects1.rsp @C:\Users\Jeffrey\AppData\Local\Temp\nmCCB7.tmp
-
 
 

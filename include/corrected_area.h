@@ -1,6 +1,7 @@
 #ifndef CORRECTED_AREA
 #define CORRECTED_AREA
 #include <Eigen/Core>
+#include <Eigen/Dense>
 // Compute the corrected area of a triangle using the scalar and cross product functions on its vertices and normals
 // 
 // Inputs:

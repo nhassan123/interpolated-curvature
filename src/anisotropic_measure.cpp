@@ -9,10 +9,12 @@ void anisotropic_measure(
   const int & v,
   Eigen::MatrixXd & a_m)
   {
-    Eigen::VectorXd e1, e2, e3;
-    e1 << 1, 0, 0;
-    e2 << 0, 1, 0;
-    e3 << 0, 0, 1;
+    Eigen::VectorXd e1 = Eigen::VectorXd::Zero(3);
+    Eigen::VectorXd e2 = Eigen::VectorXd::Zero(3);
+    Eigen::VectorXd e3 = Eigen::VectorXd::Zero(3);
+    e1(0) = 1;
+    e2(1) = 1;
+    e3(2) = 1;
     //Eigen::VectorXd e2 = [0 1 0];
     //Eigen::VectorXd e3 = [0 0 1];
 
