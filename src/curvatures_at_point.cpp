@@ -5,6 +5,8 @@
 #include <igl/squared_edge_lengths.h>
 #include "../include/area_ratio_at_v.h"
 #include "../include/area_ball.h"
+#include "../include/mean_density_ball.h"
+#include "../include/gaussian_ball.h"
 #include "../include/compute_big_M.h"
 #include "../include/internal_angles.h"
 #include <igl/doublearea.h>
@@ -111,13 +113,13 @@ void curvatures_at_point(
 
     double mu_1 = 0;
     double mu_2 = 0;
-    //mu_1_function(V, F, N, area_ratio_list_v, v, mu_1);
-    //mu_2_function(V, F, N, area_ratio_list_v, v, mu_2);
+    mean_density_ball(V, F, N, area_ratio_list_v, v, mu_1);
+    gaussian_ball(V, F, N, area_ratio_list_v, v, mu_2);
     H(v) = mu_1 / mu_0;
     G(v) = mu_2 / mu_0;
 	  std::cout<<"vertex #:"<< v << std::endl;
 
-    //std::cout<< big_M << std::endl;
+    std::cout<< mu_2 << std::endl;
 
   	}
     //std::cout << "6" << std::endl;

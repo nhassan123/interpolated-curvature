@@ -1426,24 +1426,6 @@ Eigen/Core
 Eigen/Core
 -
 
-../libigl/cmake/../include/igl/adjacency_matrix.cpp
-adjacency_matrix.h
-../libigl/cmake/../include/igl/adjacency_matrix.h
-verbose.h
-../libigl/cmake/../include/igl/verbose.h
-vector
--
-
-../libigl/cmake/../include/igl/adjacency_matrix.h
-igl_inline.h
-../libigl/cmake/../include/igl/igl_inline.h
-Eigen/Dense
--
-Eigen/Sparse
--
-adjacency_matrix.cpp
-../libigl/cmake/../include/igl/adjacency_matrix.cpp
-
 ../libigl/cmake/../include/igl/colon.cpp
 colon.h
 ../libigl/cmake/../include/igl/colon.h
@@ -1652,14 +1634,6 @@ Eigen/Dense
 squared_edge_lengths.cpp
 ../libigl/cmake/../include/igl/squared_edge_lengths.cpp
 
-../libigl/cmake/../include/igl/verbose.h
-cstdio
--
-cstdarg
--
-string
--
-
 /home/najah/Documents/MASc/geomProc/interpolated-curvature/include/anisotropic_measure.h
 Eigen/Core
 -
@@ -1694,7 +1668,27 @@ Eigen/Dense
 Eigen/Core
 -
 
+/home/najah/Documents/MASc/geomProc/interpolated-curvature/include/gaussian.h
+Eigen/Core
+-
+Eigen/Dense
+-
+
+/home/najah/Documents/MASc/geomProc/interpolated-curvature/include/gaussian_ball.h
+Eigen/Core
+-
+
 /home/najah/Documents/MASc/geomProc/interpolated-curvature/include/internal_angles.h
+Eigen/Core
+-
+
+/home/najah/Documents/MASc/geomProc/interpolated-curvature/include/mean_density.h
+Eigen/Core
+-
+Eigen/Dense
+-
+
+/home/najah/Documents/MASc/geomProc/interpolated-curvature/include/mean_density_ball.h
 Eigen/Core
 -
 
@@ -1713,6 +1707,8 @@ Eigen/Core
 /home/najah/Documents/MASc/geomProc/interpolated-curvature/include/anisotropic_measure.h
 ../include/second_fundamental_form_ball.h
 /home/najah/Documents/MASc/geomProc/interpolated-curvature/include/second_fundamental_form_ball.h
+iostream
+-
 
 /home/najah/Documents/MASc/geomProc/interpolated-curvature/src/area_ball.cpp
 ../include/area_ball.h
@@ -1753,20 +1749,38 @@ iostream
 /home/najah/Documents/MASc/geomProc/interpolated-curvature/include/curvatures_at_point.h
 Eigen/Eigenvalues
 -
-igl/adjacency_matrix.h
--
 igl/per_vertex_normals.h
 -
-../include/compute_area_ratio.h
-/home/najah/Documents/MASc/geomProc/interpolated-curvature/include/compute_area_ratio.h
+igl/squared_edge_lengths.h
+-
 ../include/area_ratio_at_v.h
 /home/najah/Documents/MASc/geomProc/interpolated-curvature/include/area_ratio_at_v.h
 ../include/area_ball.h
 /home/najah/Documents/MASc/geomProc/interpolated-curvature/include/area_ball.h
+../include/mean_density_ball.h
+/home/najah/Documents/MASc/geomProc/interpolated-curvature/include/mean_density_ball.h
+../include/gaussian_ball.h
+/home/najah/Documents/MASc/geomProc/interpolated-curvature/include/gaussian_ball.h
 ../include/compute_big_M.h
 /home/najah/Documents/MASc/geomProc/interpolated-curvature/include/compute_big_M.h
 ../include/internal_angles.h
 /home/najah/Documents/MASc/geomProc/interpolated-curvature/include/internal_angles.h
+igl/doublearea.h
+-
+iostream
+-
+
+/home/najah/Documents/MASc/geomProc/interpolated-curvature/src/gaussian.cpp
+../include/gaussian.h
+/home/najah/Documents/MASc/geomProc/interpolated-curvature/include/gaussian.h
+iostream
+-
+
+/home/najah/Documents/MASc/geomProc/interpolated-curvature/src/gaussian_ball.cpp
+../include/gaussian_ball.h
+/home/najah/Documents/MASc/geomProc/interpolated-curvature/include/gaussian_ball.h
+../include/gaussian.h
+/home/najah/Documents/MASc/geomProc/interpolated-curvature/include/gaussian.h
 iostream
 -
 
@@ -1774,13 +1788,29 @@ iostream
 ../include/internal_angles.h
 /home/najah/Documents/MASc/geomProc/interpolated-curvature/include/internal_angles.h
 
+/home/najah/Documents/MASc/geomProc/interpolated-curvature/src/mean_density.cpp
+../include/mean_density.h
+/home/najah/Documents/MASc/geomProc/interpolated-curvature/include/mean_density.h
+
+/home/najah/Documents/MASc/geomProc/interpolated-curvature/src/mean_density_ball.cpp
+../include/mean_density_ball.h
+/home/najah/Documents/MASc/geomProc/interpolated-curvature/include/mean_density_ball.h
+../include/mean_density.h
+/home/najah/Documents/MASc/geomProc/interpolated-curvature/include/mean_density.h
+iostream
+-
+
 /home/najah/Documents/MASc/geomProc/interpolated-curvature/src/second_fundamental_form.cpp
 ../include/second_fundamental_form.h
 /home/najah/Documents/MASc/geomProc/interpolated-curvature/include/second_fundamental_form.h
+iostream
+-
 
 /home/najah/Documents/MASc/geomProc/interpolated-curvature/src/second_fundamental_form_ball.cpp
 ../include/second_fundamental_form_ball.h
 /home/najah/Documents/MASc/geomProc/interpolated-curvature/include/second_fundamental_form_ball.h
 ../include/second_fundamental_form.h
 /home/najah/Documents/MASc/geomProc/interpolated-curvature/include/second_fundamental_form.h
+iostream
+-
 

@@ -11,7 +11,11 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/najah/Documents/MASc/geomProc/interpolated-curvature/src/compute_big_M.cpp" "/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/core.dir/src/compute_big_M.cpp.o"
   "/home/najah/Documents/MASc/geomProc/interpolated-curvature/src/corrected_area.cpp" "/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/core.dir/src/corrected_area.cpp.o"
   "/home/najah/Documents/MASc/geomProc/interpolated-curvature/src/curvatures_at_point.cpp" "/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/core.dir/src/curvatures_at_point.cpp.o"
+  "/home/najah/Documents/MASc/geomProc/interpolated-curvature/src/gaussian.cpp" "/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/core.dir/src/gaussian.cpp.o"
+  "/home/najah/Documents/MASc/geomProc/interpolated-curvature/src/gaussian_ball.cpp" "/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/core.dir/src/gaussian_ball.cpp.o"
   "/home/najah/Documents/MASc/geomProc/interpolated-curvature/src/internal_angles.cpp" "/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/core.dir/src/internal_angles.cpp.o"
+  "/home/najah/Documents/MASc/geomProc/interpolated-curvature/src/mean_density.cpp" "/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/core.dir/src/mean_density.cpp.o"
+  "/home/najah/Documents/MASc/geomProc/interpolated-curvature/src/mean_density_ball.cpp" "/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/core.dir/src/mean_density_ball.cpp.o"
   "/home/najah/Documents/MASc/geomProc/interpolated-curvature/src/second_fundamental_form.cpp" "/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/core.dir/src/second_fundamental_form.cpp.o"
   "/home/najah/Documents/MASc/geomProc/interpolated-curvature/src/second_fundamental_form_ball.cpp" "/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/CMakeFiles/core.dir/src/second_fundamental_form_ball.cpp.o"
   )

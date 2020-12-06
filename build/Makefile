@@ -378,6 +378,60 @@ src/curvatures_at_point.cpp.s:
 	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/curvatures_at_point.cpp.s
 .PHONY : src/curvatures_at_point.cpp.s
 
+src/gaussian.o: src/gaussian.cpp.o
+
+.PHONY : src/gaussian.o
+
+# target to build an object file
+src/gaussian.cpp.o:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/gaussian.cpp.o
+.PHONY : src/gaussian.cpp.o
+
+src/gaussian.i: src/gaussian.cpp.i
+
+.PHONY : src/gaussian.i
+
+# target to preprocess a source file
+src/gaussian.cpp.i:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/gaussian.cpp.i
+.PHONY : src/gaussian.cpp.i
+
+src/gaussian.s: src/gaussian.cpp.s
+
+.PHONY : src/gaussian.s
+
+# target to generate assembly for a file
+src/gaussian.cpp.s:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/gaussian.cpp.s
+.PHONY : src/gaussian.cpp.s
+
+src/gaussian_ball.o: src/gaussian_ball.cpp.o
+
+.PHONY : src/gaussian_ball.o
+
+# target to build an object file
+src/gaussian_ball.cpp.o:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/gaussian_ball.cpp.o
+.PHONY : src/gaussian_ball.cpp.o
+
+src/gaussian_ball.i: src/gaussian_ball.cpp.i
+
+.PHONY : src/gaussian_ball.i
+
+# target to preprocess a source file
+src/gaussian_ball.cpp.i:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/gaussian_ball.cpp.i
+.PHONY : src/gaussian_ball.cpp.i
+
+src/gaussian_ball.s: src/gaussian_ball.cpp.s
+
+.PHONY : src/gaussian_ball.s
+
+# target to generate assembly for a file
+src/gaussian_ball.cpp.s:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/gaussian_ball.cpp.s
+.PHONY : src/gaussian_ball.cpp.s
+
 src/internal_angles.o: src/internal_angles.cpp.o
 
 .PHONY : src/internal_angles.o
@@ -404,6 +458,60 @@ src/internal_angles.s: src/internal_angles.cpp.s
 src/internal_angles.cpp.s:
 	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/internal_angles.cpp.s
 .PHONY : src/internal_angles.cpp.s
+
+src/mean_density.o: src/mean_density.cpp.o
+
+.PHONY : src/mean_density.o
+
+# target to build an object file
+src/mean_density.cpp.o:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/mean_density.cpp.o
+.PHONY : src/mean_density.cpp.o
+
+src/mean_density.i: src/mean_density.cpp.i
+
+.PHONY : src/mean_density.i
+
+# target to preprocess a source file
+src/mean_density.cpp.i:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/mean_density.cpp.i
+.PHONY : src/mean_density.cpp.i
+
+src/mean_density.s: src/mean_density.cpp.s
+
+.PHONY : src/mean_density.s
+
+# target to generate assembly for a file
+src/mean_density.cpp.s:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/mean_density.cpp.s
+.PHONY : src/mean_density.cpp.s
+
+src/mean_density_ball.o: src/mean_density_ball.cpp.o
+
+.PHONY : src/mean_density_ball.o
+
+# target to build an object file
+src/mean_density_ball.cpp.o:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/mean_density_ball.cpp.o
+.PHONY : src/mean_density_ball.cpp.o
+
+src/mean_density_ball.i: src/mean_density_ball.cpp.i
+
+.PHONY : src/mean_density_ball.i
+
+# target to preprocess a source file
+src/mean_density_ball.cpp.i:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/mean_density_ball.cpp.i
+.PHONY : src/mean_density_ball.cpp.i
+
+src/mean_density_ball.s: src/mean_density_ball.cpp.s
+
+.PHONY : src/mean_density_ball.s
+
+# target to generate assembly for a file
+src/mean_density_ball.cpp.s:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/mean_density_ball.cpp.s
+.PHONY : src/mean_density_ball.cpp.s
 
 src/second_fundamental_form.o: src/second_fundamental_form.cpp.o
 
@@ -495,9 +603,21 @@ help:
 	@echo "... src/curvatures_at_point.o"
 	@echo "... src/curvatures_at_point.i"
 	@echo "... src/curvatures_at_point.s"
+	@echo "... src/gaussian.o"
+	@echo "... src/gaussian.i"
+	@echo "... src/gaussian.s"
+	@echo "... src/gaussian_ball.o"
+	@echo "... src/gaussian_ball.i"
+	@echo "... src/gaussian_ball.s"
 	@echo "... src/internal_angles.o"
 	@echo "... src/internal_angles.i"
 	@echo "... src/internal_angles.s"
+	@echo "... src/mean_density.o"
+	@echo "... src/mean_density.i"
+	@echo "... src/mean_density.s"
+	@echo "... src/mean_density_ball.o"
+	@echo "... src/mean_density_ball.i"
+	@echo "... src/mean_density_ball.s"
 	@echo "... src/second_fundamental_form.o"
 	@echo "... src/second_fundamental_form.i"
 	@echo "... src/second_fundamental_form.s"
