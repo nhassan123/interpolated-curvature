@@ -1,8 +1,8 @@
-# Install script for directory: /home/najah/Documents/MASc/geomProc/interpolated-curvature
+# Install script for directory: C:/Users/Jeffrey/Documents/MASc/Year 1/CSC2520/Project/interpolated-curvature
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/curvature")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "")
+    set(CMAKE_INSTALL_CONFIG_NAME "Debug")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -27,15 +27,15 @@ if(NOT CMAKE_INSTALL_COMPONENT)
   endif()
 endif()
 
-# Install shared libraries without execute permission?
-if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
-  set(CMAKE_INSTALL_SO_NO_EXE "1")
+# Is this installation the result of a crosscompile?
+if(NOT DEFINED CMAKE_CROSSCOMPILING)
+  set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/glad/cmake_install.cmake")
-  include("/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/glfw/cmake_install.cmake")
+  include("C:/Users/Jeffrey/Documents/MASc/Year 1/CSC2520/Project/interpolated-curvature/build/glad/cmake_install.cmake")
+  include("C:/Users/Jeffrey/Documents/MASc/Year 1/CSC2520/Project/interpolated-curvature/build/glfw/cmake_install.cmake")
 
 endif()
 
@@ -47,5 +47,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Jeffrey/Documents/MASc/Year 1/CSC2520/Project/interpolated-curvature/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

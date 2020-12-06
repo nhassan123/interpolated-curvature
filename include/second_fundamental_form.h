@@ -1,4 +1,4 @@
-#ifndef SEDOND_FUNDAMENTAL
+#ifndef SECOND_FUNDAMENTAL
 #define SECOND_FUNDAMENTAL
 #include <Eigen/Core>
 // Compute the second fundamental form of a triangle using two given directions X, Y

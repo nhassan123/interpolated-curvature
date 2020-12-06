@@ -53,3 +53,18 @@ Makefile:126: recipe for target 'cmTC_ff3f0/fast' failed
 make: *** [cmTC_ff3f0/fast] Error 2
 
 
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: C:/Users/Jeffrey/Documents/MASc/Year 1/CSC2520/Project/interpolated-curvature/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_c8002\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_c8002.dir\build.make /nologo -L                  CMakeFiles\cmTC_c8002.dir\build
+Building C object CMakeFiles/cmTC_c8002.dir/CheckIncludeFile.c.obj
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @C:\Users\Jeffrey\AppData\Local\Temp\nmE270.tmp
+CheckIncludeFile.c
+C:\Users\Jeffrey\Documents\MASc\Year 1\CSC2520\Project\interpolated-curvature\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+NMAKE : fatal error U1077: 'C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe' : return code '0x2'
+Stop.
+NMAKE : fatal error U1077: '"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX86\x86\nmake.exe"' : return code '0x2'
+Stop.
+
+
+

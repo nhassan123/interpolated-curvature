@@ -6,6 +6,8 @@ void compute_area_ratio(
 	const Eigen::MatrixXd & V,
 	const Eigen::MatrixXi & F,
 	Eigen::MatrixXd & A_ratio){
+
+	const double PI = 3.15149265358979323846;
   
   	//Create l_sqr #F by 3 list squared edge-lengths opposite respective corner
   	Eigen::MatrixXd l_sqr;
@@ -29,7 +31,7 @@ void compute_area_ratio(
 
 	//Create A_ratio = A / 2*pi
 	A_ratio.resizeLike(A_angles);
-	A_ratio = A_angles / (2 * M_PI);
+	A_ratio = A_angles / (2 * PI);
 	//A_ratio = Eigen::MatrixXd::Zero(5,5);
   }
 

@@ -4,27 +4,27 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/najah/Documents/MASc/geomProc/interpolated-curvature/libigl/external/glfw/src/context.c" "/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/glfw/src/CMakeFiles/glfw.dir/context.c.o"
-  "/home/najah/Documents/MASc/geomProc/interpolated-curvature/libigl/external/glfw/src/egl_context.c" "/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o"
-  "/home/najah/Documents/MASc/geomProc/interpolated-curvature/libigl/external/glfw/src/glx_context.c" "/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o"
-  "/home/najah/Documents/MASc/geomProc/interpolated-curvature/libigl/external/glfw/src/init.c" "/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/glfw/src/CMakeFiles/glfw.dir/init.c.o"
-  "/home/najah/Documents/MASc/geomProc/interpolated-curvature/libigl/external/glfw/src/input.c" "/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/glfw/src/CMakeFiles/glfw.dir/input.c.o"
-  "/home/najah/Documents/MASc/geomProc/interpolated-curvature/libigl/external/glfw/src/linux_joystick.c" "/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o"
-  "/home/najah/Documents/MASc/geomProc/interpolated-curvature/libigl/external/glfw/src/monitor.c" "/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/glfw/src/CMakeFiles/glfw.dir/monitor.c.o"
-  "/home/najah/Documents/MASc/geomProc/interpolated-curvature/libigl/external/glfw/src/osmesa_context.c" "/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o"
-  "/home/najah/Documents/MASc/geomProc/interpolated-curvature/libigl/external/glfw/src/posix_thread.c" "/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o"
-  "/home/najah/Documents/MASc/geomProc/interpolated-curvature/libigl/external/glfw/src/posix_time.c" "/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o"
-  "/home/najah/Documents/MASc/geomProc/interpolated-curvature/libigl/external/glfw/src/vulkan.c" "/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o"
-  "/home/najah/Documents/MASc/geomProc/interpolated-curvature/libigl/external/glfw/src/window.c" "/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/glfw/src/CMakeFiles/glfw.dir/window.c.o"
-  "/home/najah/Documents/MASc/geomProc/interpolated-curvature/libigl/external/glfw/src/x11_init.c" "/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o"
-  "/home/najah/Documents/MASc/geomProc/interpolated-curvature/libigl/external/glfw/src/x11_monitor.c" "/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o"
-  "/home/najah/Documents/MASc/geomProc/interpolated-curvature/libigl/external/glfw/src/x11_window.c" "/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o"
-  "/home/najah/Documents/MASc/geomProc/interpolated-curvature/libigl/external/glfw/src/xkb_unicode.c" "/home/najah/Documents/MASc/geomProc/interpolated-curvature/build/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o"
+  "C:/Users/Jeffrey/Documents/MASc/Year 1/CSC2520/Project/interpolated-curvature/libigl/external/glfw/src/context.c" "C:/Users/Jeffrey/Documents/MASc/Year 1/CSC2520/Project/interpolated-curvature/build/glfw/src/CMakeFiles/glfw.dir/context.c.obj"
+  "C:/Users/Jeffrey/Documents/MASc/Year 1/CSC2520/Project/interpolated-curvature/libigl/external/glfw/src/egl_context.c" "C:/Users/Jeffrey/Documents/MASc/Year 1/CSC2520/Project/interpolated-curvature/build/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj"
+  "C:/Users/Jeffrey/Documents/MASc/Year 1/CSC2520/Project/interpolated-curvature/libigl/external/glfw/src/init.c" "C:/Users/Jeffrey/Documents/MASc/Year 1/CSC2520/Project/interpolated-curvature/build/glfw/src/CMakeFiles/glfw.dir/init.c.obj"
+  "C:/Users/Jeffrey/Documents/MASc/Year 1/CSC2520/Project/interpolated-curvature/libigl/external/glfw/src/input.c" "C:/Users/Jeffrey/Documents/MASc/Year 1/CSC2520/Project/interpolated-curvature/build/glfw/src/CMakeFiles/glfw.dir/input.c.obj"
+  "C:/Users/Jeffrey/Documents/MASc/Year 1/CSC2520/Project/interpolated-curvature/libigl/external/glfw/src/monitor.c" "C:/Users/Jeffrey/Documents/MASc/Year 1/CSC2520/Project/interpolated-curvature/build/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj"
+  "C:/Users/Jeffrey/Documents/MASc/Year 1/CSC2520/Project/interpolated-curvature/libigl/external/glfw/src/osmesa_context.c" "C:/Users/Jeffrey/Documents/MASc/Year 1/CSC2520/Project/interpolated-curvature/build/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj"
+  "C:/Users/Jeffrey/Documents/MASc/Year 1/CSC2520/Project/interpolated-curvature/libigl/external/glfw/src/vulkan.c" "C:/Users/Jeffrey/Documents/MASc/Year 1/CSC2520/Project/interpolated-curvature/build/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj"
+  "C:/Users/Jeffrey/Documents/MASc/Year 1/CSC2520/Project/interpolated-curvature/libigl/external/glfw/src/wgl_context.c" "C:/Users/Jeffrey/Documents/MASc/Year 1/CSC2520/Project/interpolated-curvature/build/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj"
+  "C:/Users/Jeffrey/Documents/MASc/Year 1/CSC2520/Project/interpolated-curvature/libigl/external/glfw/src/win32_init.c" "C:/Users/Jeffrey/Documents/MASc/Year 1/CSC2520/Project/interpolated-curvature/build/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj"
+  "C:/Users/Jeffrey/Documents/MASc/Year 1/CSC2520/Project/interpolated-curvature/libigl/external/glfw/src/win32_joystick.c" "C:/Users/Jeffrey/Documents/MASc/Year 1/CSC2520/Project/interpolated-curvature/build/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj"
+  "C:/Users/Jeffrey/Documents/MASc/Year 1/CSC2520/Project/interpolated-curvature/libigl/external/glfw/src/win32_monitor.c" "C:/Users/Jeffrey/Documents/MASc/Year 1/CSC2520/Project/interpolated-curvature/build/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj"
+  "C:/Users/Jeffrey/Documents/MASc/Year 1/CSC2520/Project/interpolated-curvature/libigl/external/glfw/src/win32_thread.c" "C:/Users/Jeffrey/Documents/MASc/Year 1/CSC2520/Project/interpolated-curvature/build/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj"
+  "C:/Users/Jeffrey/Documents/MASc/Year 1/CSC2520/Project/interpolated-curvature/libigl/external/glfw/src/win32_time.c" "C:/Users/Jeffrey/Documents/MASc/Year 1/CSC2520/Project/interpolated-curvature/build/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj"
+  "C:/Users/Jeffrey/Documents/MASc/Year 1/CSC2520/Project/interpolated-curvature/libigl/external/glfw/src/win32_window.c" "C:/Users/Jeffrey/Documents/MASc/Year 1/CSC2520/Project/interpolated-curvature/build/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj"
+  "C:/Users/Jeffrey/Documents/MASc/Year 1/CSC2520/Project/interpolated-curvature/libigl/external/glfw/src/window.c" "C:/Users/Jeffrey/Documents/MASc/Year 1/CSC2520/Project/interpolated-curvature/build/glfw/src/CMakeFiles/glfw.dir/window.c.obj"
   )
-set(CMAKE_C_COMPILER_ID "GNU")
+set(CMAKE_C_COMPILER_ID "MSVC")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_C
+  "_CRT_SECURE_NO_WARNINGS"
   "_GLFW_USE_CONFIG_H"
   )
 

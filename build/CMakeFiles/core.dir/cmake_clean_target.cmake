@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "libcore.a"
+  "core.lib"
 )
