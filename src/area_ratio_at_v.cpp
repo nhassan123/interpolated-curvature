@@ -8,7 +8,7 @@ void area_ratio_at_v(
   const Eigen::MatrixXd & A_angles,
   const Eigen::MatrixXd & Areas,
   const double r,
-  Eigen::VectorXd & area_ratio_list_v)
+  Eigen::SparseVector<double> & area_ratio_list_v)
   {
  /*   std::cout << "1" << std::endl;
     Eigen::SparseMatrix <double> vec = A.row(v);
@@ -38,42 +38,82 @@ void area_ratio_at_v(
     			}
     		}
       }*/
-      area_ratio_list_v = Eigen::VectorXd::Zero(F.rows());
-      double sum = 0;
-      for (int f = 0; f < F.rows(); ++f)
+
+/*USING DENSE
+    area_ratio_list_v = Eigen::VectorXd::Zero(F.rows());
+    double sum = 0;
+    for (int f = 0; f < F.rows(); ++f)
+    {
+
+      bool face_contained = true;
+
+      for (int i = 0; i < 3; ++i)
       {
 
-        bool face_contained = true;
-
-        for (int i = 0; i < 3; ++i)
+        if (F(f, i) == v)         //checking all incident triangles
         {
-
-          if (F(f, i) == v)         //checking all incident triangles
+          //std::cout << f << std::endl;
+          area_ratio_list_v(f) = A_angles(f, i) * r * r / (2 * Areas(f)); //for a circular section, A = theta/2 * r^2
+          if (area_ratio_list_v(f) > 1)
           {
-            //std::cout << f << std::endl;
-            area_ratio_list_v(f) = A_angles(f, i) * r * r / (2 * Areas(f)); //for a circular section, A = theta/2 * r^2
-            if (area_ratio_list_v(f) > 1)
-            {
-              area_ratio_list_v(f) = 1;
-            }
-            //std::cout << area_ratio_list_v(f) << std::endl;
-            //sum += A_angles(f, i);
+            area_ratio_list_v(f) = 1;
           }
-
-          if ((V.row(F(f, i)) - V.row(v)).norm() > r)    //checking to see if triangle is entirely contained by the ball
-          {
-            face_contained = false;
-          }
-
+          //std::cout << area_ratio_list_v(f) << std::endl;
+          //sum += A_angles(f, i);
         }
 
-        if (face_contained)
+        if ((V.row(F(f, i)) - V.row(v)).norm() > r)    //checking to see if triangle is entirely contained by the ball
         {
-          area_ratio_list_v(f) = 1;
-          //std::cout << "HERE: " << f << std::endl;
+          face_contained = false;
         }
-      }      
 
+      }
+
+      if (face_contained)
+      {
+        area_ratio_list_v(f) = 1;
+        //std::cout << "HERE: " << f << std::endl;
+      }
+    }      
+*/
+
+    area_ratio_list_v.resize(F.rows());
+
+    double sum = 0;
+
+    for (int f = 0; f < F.rows(); ++f)
+    {
+
+      bool face_contained = true;
+
+      for (int i = 0; i < 3; ++i)
+      {
+
+        if (F(f, i) == v)         //checking all incident triangles
+        {
+          //std::cout << f << std::endl;
+          area_ratio_list_v.coeffRef(f) = A_angles(f, i) * r * r / (2 * Areas(f)); //for a circular section, A = theta/2 * r^2
+/*          if (area_ratio_list_v(f) > 1)
+          {
+            area_ratio_list_v.coeffRef(f) = 1;
+          }*/
+          //std::cout << area_ratio_list_v(f) << std::endl;
+          //sum += A_angles(f, i);
+        }
+
+        if ((V.row(F(f, i)) - V.row(v)).norm() > r)    //checking to see if triangle is entirely contained by the ball
+        {
+          face_contained = false;
+        }
+
+      }
+
+      if (face_contained)
+      {
+        area_ratio_list_v.coeffRef(f) = 1;
+        //std::cout << "HERE: " << f << std::endl;
+      }
+    }     
 
   }
 

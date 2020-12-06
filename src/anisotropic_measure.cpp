@@ -6,7 +6,7 @@ void anisotropic_measure(
   const Eigen::MatrixXi & F,
   const Eigen::MatrixXd & V,
   const Eigen::MatrixXd & N,
-  const Eigen::MatrixXd & A_ratio_at_v,
+  const Eigen::SparseVector<double> & A_ratio_at_v,
   const int & v,
   Eigen::MatrixXd & a_m)
   {

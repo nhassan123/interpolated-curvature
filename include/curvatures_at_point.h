@@ -1,6 +1,7 @@
 #ifndef CURVATURES_AT_POINTS
 #define CURVATURES_AT_POINTS
 #include <Eigen/Core>
+
 /*
 This function computes the principal curvature and principal curvature directions at a specific vertex, indexed by v
 

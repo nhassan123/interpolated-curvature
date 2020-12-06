@@ -20,7 +20,7 @@ void compute_big_M(
   const Eigen::MatrixXd & V,
   const Eigen::MatrixXi & F,
   const Eigen::MatrixXd & N,
-  const Eigen::MatrixXd & A_ratio_at_v,
+  const Eigen::SparseVector<double> & A_ratio_at_v,
   Eigen::MatrixXd & big_M);
 #endif
 

@@ -1,6 +1,7 @@
 #ifndef SECOND_FUNDAMENTAL_BALL
 #define SECOND_FUNDAMENTAL_BALL
 #include <Eigen/Core>
+#include <Eigen/Sparse>
 // Compute the second fundamental form at each vertex by taking the weighted sum of the second fundamental form 
 // of each triangle that shares a given vertex 
 //
@@ -20,7 +21,7 @@ void second_fundamental_form_ball(
   const Eigen::MatrixXi & F,
   const Eigen::MatrixXd & V,
   const Eigen::MatrixXd & N,
-  const Eigen::MatrixXd & A_ratio_at_v,
+  const Eigen::SparseVector<double> & A_ratio_at_v,
   const int & v,
   double & sff_ball);
 #endif

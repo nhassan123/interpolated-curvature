@@ -2,6 +2,7 @@
 #define AREA_RATIO
 #include <Eigen/Core>
 /*
+THIS FUNCTION IS NO LONGER USED
 ASSUMES CLOSED SURFACE
 This function returns a list of all area ratios at each vertex
 

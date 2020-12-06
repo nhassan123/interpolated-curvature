@@ -63,7 +63,7 @@ void curvatures_at_point(
   	for (int v = 0; v < V.rows(); ++v)
   	{
       //std::cout << "a" << std::endl;
-  		Eigen::VectorXd area_ratio_list_v;
+  		Eigen::SparseVector<double> area_ratio_list_v;
   		area_ratio_at_v(v, V, F, A_angles, Areas, r, area_ratio_list_v);		//compute area ratios
 /*      for (int i = 0; i < area_ratio_list_v.rows(); ++i)
       {
@@ -111,15 +111,15 @@ void curvatures_at_point(
       D2.row(v).normalize();
       //std::cout << "mu_0:"<< mu_0 << std::endl;
 
-    double mu_1 = 0;
-    double mu_2 = 0;
-    mean_density_ball(V, F, N, area_ratio_list_v, v, mu_1);
-    gaussian_ball(V, F, N, area_ratio_list_v, v, mu_2);
-    H(v) = mu_1 / mu_0;
-    G(v) = mu_2 / mu_0;
-	  std::cout<<"vertex #:"<< v << std::endl;
+      double mu_1 = 0;
+      double mu_2 = 0;
+      mean_density_ball(V, F, N, area_ratio_list_v, v, mu_1);
+      gaussian_ball(V, F, N, area_ratio_list_v, v, mu_2);
+      H(v) = mu_1 / mu_0;
+      G(v) = mu_2 / mu_0;
+  	  std::cout<<"vertex #:"<< v << std::endl;
 
-    std::cout<< mu_2 << std::endl;
+      //std::cout<< mu_2 << std::endl;
 
   	}
     //std::cout << "6" << std::endl;

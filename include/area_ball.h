@@ -1,6 +1,7 @@
 #ifndef AREA_BALL
 #define AREA_BALL
 #include <Eigen/Core>
+#include <Eigen/Sparse>
 // Compute the corrected area at each vertex by taking the weighted sum of the corrected area 
 // of each triangle that shares a given vertex 
 // Inputs:
@@ -15,7 +16,7 @@ void area_ball(
   const Eigen::MatrixXd & V,
   const Eigen::MatrixXi & F,
   const Eigen::MatrixXd & N,
-  const Eigen::MatrixXd & A_ratio,
+  const Eigen::SparseVector<double> & A_ratio,
   const int & v,
   double & area_ball
   );

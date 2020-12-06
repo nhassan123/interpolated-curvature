@@ -48,8 +48,8 @@ G        Show Gaussian curvature (using product of K1 and K2)
 g        Show Gaussian curvature (using curvatures_at_point)
 M        Show discrete mean curvature (using average of K1 and K2)
 m        Show discrete mean curvature (using curvatures_at_point)
-K        Show maximum curvature (using principal_curvatures)
-k        Show minimum curvature (using principal_curvatures)
+K, k     Increase, decrease K (should be significantly greater than maximal curvature)
+R, r     Increase, decrease radius of ball (warning: slow for large r)
 D,d      Show corrected principal curvature directions (using curvatures_at_point)
 C        Show corrected first principal curvatures (using curvatures_at_point)
 c        Show corrected second principal curvatures (using curvatures_at_point) 
@@ -81,10 +81,11 @@ c        Show corrected second principal curvatures (using curvatures_at_point)
         Z = G;
         break;
       case 'K':
-        //Z = K1;
-        break;
       case 'k':
-        //Z = K2;
+        K *= key =='K' ? 10.0 : 0.1;
+        std::cout <<"Recalculating..." << std::endl;
+        curvatures_at_point(K, r, V, F, D1, D2, K1, K2, G, H);
+        std::cout <<"K: " << K << std::endl;
         break;
       case 'M':
         Z = 0.5*(K1+K2);
@@ -102,6 +103,13 @@ c        Show corrected second principal curvatures (using curvatures_at_point)
         break;
       case 'c':
         Z = K2;
+        break;
+      case 'R':
+      case 'r':
+        r *= key =='R' ? 10.0 : 0.1;
+        std::cout <<"Recalculating..." << std::endl;
+        curvatures_at_point(K, r, V, F, D1, D2, K1, K2, G, H);
+        std::cout <<"Radius: " << r << std::endl;
         break;
       default:
         return false;

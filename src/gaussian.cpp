@@ -15,10 +15,12 @@ void gaussian(
     n_ui = ui.normalized();
     n_uj = uj.normalized();
     n_uk = uk.normalized();
+    //std::cout << "n_ui: " << n_ui << "; n_uj: " << n_uj << "; n_uk: " << n_uk << std::endl;
 
-    Eigen::Vector3d cross_prod = n_ui.cross(n_uk);
+    Eigen::Vector3d cross_prod = n_uj.cross(n_uk);
     //std::cout << "cp: "<< cross_prod(0) <<std::endl;
 
-    gaussian_curvature = (n_uj.dot(cross_prod)) / 2;
+    gaussian_curvature = (n_ui.dot(cross_prod)) / 2;
+    //std::cout <<  gaussian_curvature <<std::endl;
   }
 

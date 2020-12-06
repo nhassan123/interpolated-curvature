@@ -22,6 +22,6 @@ void area_ratio_at_v(
   const Eigen::MatrixXd & A_angles,
   const Eigen::MatrixXd & Areas,
   const double r,
-  Eigen::VectorXd & area_ratio_list_v);
+  Eigen::SparseVector<double> & area_ratio_list_v);
 
 #endif
