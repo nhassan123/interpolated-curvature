@@ -11,7 +11,7 @@ This paper introduces new corrected curvature measures that are used to formulat
 
   
 
-The first measure is <img src="https://render.githubusercontent.com/render/math?math=\mu^{(0)}>}, which is the corrected area density of a given triangle. In order to calculate this, the position of the vertices of the triangle $x_{i}$, $x_{j}$, $x_{k}$ along with the vectors describing the normals at each vertex $u_{i}$, $u_{j}$, $u_{k}$ are used.
+The first measure is \mu^{(0)}, which is the corrected area density of a given triangle. In order to calculate this, the position of the vertices of the triangle $x_{i}$, $x_{j}$, $x_{k}$ along with the vectors describing the normals at each vertex $u_{i}$, $u_{j}$, $u_{k}$ are used.
 
   
 
