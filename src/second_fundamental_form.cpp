@@ -20,5 +20,5 @@ void second_fundamental_form(
     tmp3 = (Y.dot(uj-ui))*X;
     tmp4 = xk - xi;
     sff = 0.5*(ubar.dot(tmp1.cross(tmp2))) - 0.5* (ubar.dot(tmp3.cross(tmp4)));
-    //std::cout << sff << std::endl;
+    
   }
