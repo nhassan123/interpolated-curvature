@@ -10,7 +10,7 @@ Inputs:
 	F 		#F by 3 list of mesh face indices into V
 	A_ratio #F by 3 list of internal angle (area) ratios incident on respective corner
 Outputs:
-	area_ratio_list_v	#A(v).nonzeros()-1 list of area ratios at vertex v, in the order of appearance in F 
+	area_ratio_list_v	#F SparseVector of area ratios at vertex v of each triangle  
 
 For a given vertex index v in [0, #V-1], search F for all occurences of that index.
 For each occurence in F, reference the corresponding entry in A_ratio to obtain the angle ratio.

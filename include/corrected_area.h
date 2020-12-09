@@ -2,7 +2,7 @@
 #define CORRECTED_AREA
 #include <Eigen/Core>
 #include <Eigen/Dense>
-// Compute the corrected area of a triangle using the scalar and cross product functions on its vertices and normals
+// Computes the corrected area of a triangle using the scalar and cross product functions on its vertices and normals
 // 
 // Inputs:
 //   xi 3D Vector position of vertex i of triangle

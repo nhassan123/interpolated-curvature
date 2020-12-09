@@ -2,8 +2,8 @@
 #define MEAN_DENSITY
 #include <Eigen/Core>
 #include <Eigen/Dense>
-// Compute the corrected area of a triangle using the scalar and cross product functions on its vertices and normals
-// 
+// Computes the corrected mean density of a triangle using formula given in paper
+
 // Inputs:
 //   xi 3D Vector position of vertex i of triangle
 //   xj 3D Vector position of vertex j of triangle
@@ -12,7 +12,7 @@
 //   uj 3D Vector normal at vertex j of triangle
 //   uk 3D Vector normal at vertex k of triangle
 // Outputs:
-//   area_density  scalar corrected area density for a triangle
+//   mean_density  scalar corrected mean density for a triangle
 //
 void mean_density(
   const Eigen::VectorXd & xi,

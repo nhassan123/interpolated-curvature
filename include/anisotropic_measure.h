@@ -3,17 +3,14 @@
 #include <Eigen/Core>
 #include <Eigen/Sparse>
 /*
-    This function computes big_M at a specific vertex, indexed by v
+    This function computes the anisotropic measure of a triangle with respect to the basis vectors
+    and populates the 3x3 tensor mu_M that goes towards the second fundamental form
     Inputs:
-        e1
-        e2
-        e3
-        xi 
-        xj
-        xk
-        ui
-        uj
-        uk
+        F #F by 3 list of mesh face indices into V
+        V #V by 3 list of mesh vertex positions
+        N #V by 3 list of mesh vertex normals
+        A_ratio_at_v #F SparseVector of area ratios at vertex v of each triangle 
+        v vertex of interst
     Outputs:
         a_m 3 x 3 matrix of anisotropic measure
 */

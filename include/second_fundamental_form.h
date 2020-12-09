@@ -5,8 +5,8 @@
 // Compute the second fundamental form of a triangle using two given directions X, Y
 // 
 // Inputs:
-//   X  3D Vector of tangent direction
-//   Y  3D Vector of second tangent direction
+//   X  3D direction vector
+//   Y  3D direction vector
 //   xi 3D Vector position of vertex i of triangle
 //   xj 3D Vector position of vertex j of triangle
 //   xk 3D Vector position of vertex k of triangle
@@ -14,7 +14,7 @@
 //   uj 3D Vector normal at vertex j of triangle
 //   uk 3D Vector normal at vertex k of triangle
 // Outputs:
-//   sff  second fundamental form value for a triangle
+//   sff  scalar second fundamental form value for a triangle
 //
 void second_fundamental_form(
   const Eigen::VectorXd & X,

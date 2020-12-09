@@ -6,11 +6,12 @@
 // of each triangle that shares a given vertex 
 //
 // Inputs:
-//  V #V by 3 list of mesh vertex positions
-//  F #V by 3 list of vertices in a face
 //  X 3D vector for tangent direction
 //  Y 3D vector for second tangent direction
-//  A_ratio #F by 3 list of internal angle (area) ratios incident on respective corner
+//  V #V by 3 list of mesh vertex positions
+//  F #F by 3 list of vertices in a face
+//  N #V by 3 list of normals at each vertex
+//  A_ratio_at_v #F SpareVector of area ratios of faces incident on respective vertex
 //  v  vertex of interest
 // Outputs:
 //  sff_ball computed sum of second fundamental form at vertex 
