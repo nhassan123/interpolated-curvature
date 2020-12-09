@@ -3,17 +3,16 @@
 #include <Eigen/Core>
 #include <Eigen/Sparse>
 /*
-This function computes a list of area ratios at a specific vertex, indexed by v
+This function computes a list of area ratios at a specific vertex v
 Inputs:
 	v 		vertex index in [0, #V - 1] into V
-	A 		#V by #V adjacency matrix
-	F 		#F by 3 list of mesh face indices into V
-	A_ratio #F by 3 list of internal angle (area) ratios incident on respective corner
+	V 		#V by 3 list of mesh vertex positions
+	F 		#F by 3 list of mesh face vertex indices
+	A_angles #F by 3 list of internal angle (area) ratios incident on respective corner
+  	r     Scale parameter (radius)
 Outputs:
-	area_ratio_list_v	#F SparseVector of area ratios at vertex v of each triangle  
+	area_ratio_list_v	#V by 1 list of area ratios at vertex v, in the order of appearance in F 
 
-For a given vertex index v in [0, #V-1], search F for all occurences of that index.
-For each occurence in F, reference the corresponding entry in A_ratio to obtain the angle ratio.
 */
 void area_ratio_at_v(
   const int v,
